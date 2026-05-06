@@ -186,7 +186,6 @@ cython_debug/
 **/memory/*.sqlite3
 **/memory/*.lock
 **/memory/**/*.bin
-4_langgraph/memory.db*
 
 # Local personal files and large downloads
 Nueva carpeta/
