@@ -1,0 +1,8 @@
+coding_task:
+  description: >
+    Analyze the assignment and write the necessary code to complete it: {assignment}
+    If the assignment requires creating files (like HTML, CSS, etc.), make sure to write them to the disk.
+  expected_output: >
+    The complete source code for the solution. If files were created, confirm their location.
+  agent: coder
+  # output_file: output/code_and_output.txt # Removed to allow flexible file creation

@@ -1,0 +1,72 @@
+design_task:
+  description: >
+    Take the high level requirements described here and prepare a detailed design for the engineer;
+    everything should be in 1 python module, but outline the classes and methods in the module.
+    Here are the requirements: {requirements}
+    IMPORTANT: Only output the design in markdown format, laying out in detail the classes and functions in the module, describing the functionality.
+    If the requirements mention a specific function (e.g. get_share_price), include it explicitly in the design with the exact signature and behavior described,
+    including any test stub implementation with fixed values. Do not suggest using third-party libraries unless the requirements explicitly require them.
+  expected_output: >
+    A detailed design for the engineer, identifying the classes and functions in the module.
+    All functions mentioned in the requirements must appear explicitly in the design with their correct signatures.
+  agent: engineering_lead
+  output_file: output/{module_name}_design.md
+
+code_task:
+  description: >
+    Write a complete Python module from scratch that implements the design described by the engineering lead.
+    Here are the requirements: {requirements}
+    You MUST write the full Python source code. Do NOT describe, summarize, or validate existing code.
+    Do NOT say "the content already fulfills" or similar — your only valid output is raw Python code.
+    Use this code style:
+    - The class __init__ should only set up attributes with default empty/zero values, NOT receive deposit or data as constructor args
+    - Use a separate method like create_account(initial_deposit) for initialization actions
+    - Name methods clearly: buy_stock, sell_stock, holdings, portfolio_value, profit_loss, transaction_history
+    - If the requirements mention a specific function like get_share_price(symbol), implement it as a standalone module-level function with fixed stub prices (e.g. AAPL=150, TSLA=720, GOOGL=2800)
+    - Do NOT use third-party libraries like yfinance unless explicitly requested
+    - Implement everything using only the Python standard library
+  expected_output: >
+    The complete raw Python source code of the module, starting with the first import or class/function definition.
+    Your response must begin with a Python statement (e.g. "from datetime import datetime" or "class Account:").
+    NEVER start your response with a description, explanation, or sentence in English or any natural language.
+    NEVER include markdown formatting, code block delimiters (```), or backticks of any kind.
+    Do not import any third-party libraries (like yfinance, requests, etc.) unless explicitly required by the requirements.
+  agent: backend_engineer
+  context:
+    - design_task
+  output_file: output/{module_name}
+
+frontend_task:
+  description: >
+    Write a gradio UI in a module app.py that demonstrates the given backend class in {module_name}.
+    Assume there is only 1 user, and keep the UI very simple indeed - just a prototype or demo.
+    Here are the requirements: {requirements}
+    IMPORTANT: Use the modern Gradio API (version 4+). Key rules:
+    - Use gr.Blocks() layout instead of gr.Interface()
+    - Use `value=` instead of `default=` for all components (gr.Textbox, gr.Number, etc.)
+    - Never use the `default=` keyword argument — it does not exist in modern Gradio
+    - NEVER pass a string like "text" or "json" as the `outputs=` argument in .click() — always pass a component variable
+    - Always assign output components to variables (e.g. `result = gr.Textbox(...)`) and use those variables in `.click(..., outputs=result)`
+    - Always use the exact method names from the backend module — do not invent method names
+  expected_output: >
+    A gradio UI in module app.py that demonstrates the given backend class.
+    The file should be ready so that it can be run as-is, in the same directory as the backend module, and it should import the backend class from {module_name}.
+    IMPORTANT: Output ONLY the raw Python code without any markdown formatting, code block delimiters, or backticks.
+    The output should be valid Python code that can be directly saved to a file and executed.
+    Use only modern Gradio 4+ syntax: gr.Blocks(), value= (not default=).
+  agent: frontend_engineer
+  context:
+    - code_task
+  output_file: output/app.py
+
+test_task:
+  description: >
+    Write unit tests for the given backend module {module_name} and create a test_{module_name} in the same directory as the backend module.
+  expected_output: >
+    A test_{module_name} module that tests the given backend module.
+    IMPORTANT: Output ONLY the raw Python code without any markdown formatting, code block delimiters, or backticks.
+    The output should be valid Python code that can be directly saved to a file and executed.
+  agent: test_engineer
+  context:
+    - code_task
+  output_file: output/test_{module_name}

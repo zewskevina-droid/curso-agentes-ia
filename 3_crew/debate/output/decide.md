@@ -1,0 +1,1 @@
+La parte más convincente es la que se opone a la moción "Se necesitan leyes estrictas para regular los LLM". Si bien los argumentos a favor señalan riesgos importantes, la oposición ofrece un enfoque más equilibrado que promueve la innovación, la autorregulación, la educación y la competencia como alternativas más efectivas y menos restrictivas.

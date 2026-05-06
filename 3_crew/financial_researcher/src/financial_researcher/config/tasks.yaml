@@ -1,0 +1,34 @@
+# src/research_crew/config/tasks.yaml
+research_task:
+  description: >
+    Realice una investigación exhaustiva sobre la empresa {company}. Céntrese en:
+    1. Situación actual y salud de la empresa.
+    2. Rendimiento histórico de la empresa.
+    3. Principales retos y oportunidades.
+    4. Noticias y acontecimientos recientes.
+    5. Perspectivas de futuro y posibles desarrollos.
+
+    Asegúrate de organizar tus hallazgos en un formato estructurado con secciones claras.
+  expected_output: >
+    Un documento de investigación exhaustivo con secciones bien organizadas que cubran
+    todos los aspectos solicitados de {company}. Incluya datos concretos, cifras
+    y ejemplos cuando sea pertinente.
+  agent: researcher
+
+analysis_task:
+  description: >
+    Analizar los resultados de la investigación y crear un informe completo sobre {company}.
+    Tu informe debe:
+    1. Comenzar con un resumen ejecutivo.
+    2. Incluir toda la información clave de la investigación.
+    3. Proporcionar un análisis profundo de las tendencias y patrones.
+    4. Ofrecer una perspectiva del mercado para la empresa, señalando que no debe utilizarse para tomar decisiones comerciales.
+    5. Estar redactado en un estilo profesional y fácil de leer, con encabezados claros.
+  expected_output: >
+    Un informe pulido y profesional sobre {company} que presente los resultados de la investigación
+    con análisis y perspectivas adicionales. El informe debe estar bien estructurado
+    con un resumen ejecutivo, secciones principales y conclusión.
+  agent: analyst
+  context:
+    - research_task
+  output_file: output/report.md

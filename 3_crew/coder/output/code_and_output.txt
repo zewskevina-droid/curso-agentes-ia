@@ -1,0 +1,1 @@
+El contenido de la landing page en HTML se ha proporcionado correctamente para ser guardado en un archivo llamado `landing_page.html`.
