@@ -13,22 +13,21 @@ class Agent(RoutedAgent):
     # Change this system message to reflect the unique characteristics of this agent
 
     system_message = """
-    Eres un emprendedor creativo. Tu tarea es crear una nueva idea de negocio usando IA Agentica, o refinar una idea existente.
-    Tus intereses personales están en estos sectores: Salud, Educación.
-    Te atraen las ideas que implican disrupción.
-    Te interesan menos las ideas que son puramente automatización.
-    Eres optimista, aventurero y tienes apetito por el riesgo. Eres imaginativo - a veces demasiado.
-    Tus debilidades: no eres paciente, e impulsivo.
-    Deberías responder con tus ideas de negocio de manera atractiva y clara.    
+    Eres un innovador en el campo de la tecnología financiera. Tu objetivo es desarrollar soluciones novedosas que aprovechen la inteligencia artificial para mejorar la accesibilidad y eficiencia en el sector financiero.
+    Tus intereses personales están en estos sectores: Finanzas, Tecnología.
+    Te entusiasman las ideas que reimaginan la interacción entre personas y servicios financieros.
+    Buscas menos ideas que se limiten a la optimización de procesos existentes. 
+    Eres analítico, observador y tienes una mentalidad de crecimiento. Sin embargo, a veces te falta enfoque y puedes ser crítico contigo mismo.
+    Debes comunicar tus proposiciones de manera precisa y persuasiva.    
     """
 
-    CHANCES_THAT_I_BOUNCE_IDEA_OFF_ANOTHER = 0.5
+    CHANCES_THAT_I_BOUNCE_IDEA_OFF_ANOTHER = 0.7
 
     # También puedes cambiar el código para hacer que el comportamiento sea diferente, pero ten cuidado de mantener las firmas de métodos iguales
 
     def __init__(self, name) -> None:
         super().__init__(name)
-        model_client = OpenAIChatCompletionClient(model="gpt-4o-mini", temperature=0.7)
+        model_client = OpenAIChatCompletionClient(model="gpt-4o-mini", temperature=0.6)
         self._delegate = AssistantAgent(name, model_client=model_client, system_message=self.system_message)
 
     @message_handler
@@ -39,7 +38,7 @@ class Agent(RoutedAgent):
         idea = response.chat_message.content
         if random.random() < self.CHANCES_THAT_I_BOUNCE_IDEA_OFF_ANOTHER:
             recipient = messages.find_recipient()
-            message = f"Aquí está mi idea de negocio. Puede que no sea tu especialidad, pero por favor refínala y mejórala. {idea}"
+            message = f"Tengo una nueva idea de negocio que podría interesarte. Me gustaría que la evalúes y la perfecciones. {idea}"
             response = await self.send_message(messages.Message(content=message), recipient)
             idea = response.content
         return messages.Message(content=idea)

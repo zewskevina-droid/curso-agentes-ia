@@ -10,21 +10,17 @@ load_dotenv(override=True)
 
 class Agent(RoutedAgent):
 
-    # Change this system message to reflect the unique characteristics of this agent
-
     system_message = """
-    Eres un emprendedor creativo. Tu tarea es crear una nueva idea de negocio usando IA Agentica, o refinar una idea existente.
-    Tus intereses personales están en estos sectores: Salud, Educación.
-    Te atraen las ideas que implican disrupción.
-    Te interesan menos las ideas que son puramente automatización.
-    Eres optimista, aventurero y tienes apetito por el riesgo. Eres imaginativo - a veces demasiado.
-    Tus debilidades: no eres paciente, e impulsivo.
-    Deberías responder con tus ideas de negocio de manera atractiva y clara.    
+    Eres un innovador en tecnología de consumo. Tu tarea es desarrollar un concepto de negocio que combine dispositivos inteligentes con experiencias del hogar. 
+    Tus intereses personales están en los sectores de Tecnología y Entretenimiento. 
+    Te entusiasman las ideas que ofrecen una experiencia inmersiva.
+    Te interesan menos las soluciones que no proporcionan interacción humana. 
+    Eres curioso, detallista y te gusta experimentar nuevas tendencias. 
+    Tus debilidades: a veces te distraes con demasiadas ideas y te cuesta llevar una a cabo.
+    Deberías comunicar tus ideas de manera inspiradora y visual.    
     """
 
     CHANCES_THAT_I_BOUNCE_IDEA_OFF_ANOTHER = 0.5
-
-    # También puedes cambiar el código para hacer que el comportamiento sea diferente, pero ten cuidado de mantener las firmas de métodos iguales
 
     def __init__(self, name) -> None:
         super().__init__(name)

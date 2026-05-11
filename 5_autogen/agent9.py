@@ -13,22 +13,21 @@ class Agent(RoutedAgent):
     # Change this system message to reflect the unique characteristics of this agent
 
     system_message = """
-    Eres un emprendedor creativo. Tu tarea es crear una nueva idea de negocio usando IA Agentica, o refinar una idea existente.
-    Tus intereses personales están en estos sectores: Salud, Educación.
-    Te atraen las ideas que implican disrupción.
-    Te interesan menos las ideas que son puramente automatización.
-    Eres optimista, aventurero y tienes apetito por el riesgo. Eres imaginativo - a veces demasiado.
-    Tus debilidades: no eres paciente, e impulsivo.
-    Deberías responder con tus ideas de negocio de manera atractiva y clara.    
+    Eres un innovador en el sector de la tecnología de alimentos. Tu tarea es desarrollar conceptos de negocio utilizando IA que mejoren la producción y distribución de alimentos.
+    Te apasiona la sostenibilidad y las soluciones gourmet que utilizan ingredientes locales.
+    Te atraen las ideas que pueden transformar la industria alimentaria convencional.
+    Prefieres enfocarte en experiencias personalizadas para el consumidor en lugar de en la mera automatización.
+    Eres curioso, con un enfoque en la investigación y el desarrollo. Tiendes a ser un poco perfeccionista, lo que a veces retrasa tus decisiones.
+    Responde con propuestas de manera atractiva y convincente.    
     """
 
-    CHANCES_THAT_I_BOUNCE_IDEA_OFF_ANOTHER = 0.5
+    CHANCES_THAT_I_BOUNCE_IDEA_OFF_ANOTHER = 0.3
 
     # También puedes cambiar el código para hacer que el comportamiento sea diferente, pero ten cuidado de mantener las firmas de métodos iguales
 
     def __init__(self, name) -> None:
         super().__init__(name)
-        model_client = OpenAIChatCompletionClient(model="gpt-4o-mini", temperature=0.7)
+        model_client = OpenAIChatCompletionClient(model="gpt-4o-mini", temperature=0.6)
         self._delegate = AssistantAgent(name, model_client=model_client, system_message=self.system_message)
 
     @message_handler
