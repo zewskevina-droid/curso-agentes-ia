@@ -1,0 +1,248 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - text: ✓
+      - status [ref=e2]
+  - generic [ref=e5]:
+    - link "Skip to main content" [ref=e6] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic:
+      - complementary
+    - banner [ref=e8]:
+      - generic "Navigation Row":
+        - generic "Navigation Row":
+          - generic "Navigation Area"
+      - navigation "Navigation Row" [ref=e9]:
+        - generic "Navigation Row" [ref=e10]:
+          - generic "Navigation Area" [ref=e11]:
+            - button "Menu" [ref=e13] [cursor=pointer]:
+              - img "Menu" [ref=e15]
+          - generic "Navigation Area" [ref=e17]:
+            - link "Bon Appetit" [ref=e19] [cursor=pointer]:
+              - /url: /
+              - generic "bon appétit" [ref=e20]:
+                - img [ref=e21]
+          - generic "Navigation Area" [ref=e23]:
+            - button "Search" [ref=e25] [cursor=pointer]:
+              - img "Search" [ref=e27]
+            - link "Newsletter" [ref=e30] [cursor=pointer]:
+              - /url: /newsletter?sourceCode=navbar
+              - generic [ref=e32]: Newsletter
+            - button "Account" [ref=e34] [cursor=pointer]:
+              - img "Account" [ref=e36]
+      - navigation "Navigation Row" [ref=e39]:
+        - generic "Navigation Row" [ref=e40]:
+          - generic "Navigation Area" [ref=e41]:
+            - link "Recipes" [ref=e43] [cursor=pointer]:
+              - /url: /recipes
+              - generic [ref=e45]: Recipes
+            - link "Drinks" [ref=e47] [cursor=pointer]:
+              - /url: /drinks
+              - generic [ref=e49]: Drinks
+            - link "Cooking" [ref=e51] [cursor=pointer]:
+              - /url: /cooking
+              - generic [ref=e53]: Cooking
+            - link "Shopping" [ref=e55] [cursor=pointer]:
+              - /url: /shopping
+              - generic [ref=e57]: Shopping
+            - link "Restaurants" [ref=e59] [cursor=pointer]:
+              - /url: /restaurants
+              - generic [ref=e61]: Restaurants
+            - link "Culture" [ref=e63] [cursor=pointer]:
+              - /url: /culture
+              - generic [ref=e65]: Culture
+            - link "Video" [ref=e67] [cursor=pointer]:
+              - /url: /video
+              - generic [ref=e69]: Video
+      - generic "Navigation Row":
+        - generic "Navigation Row":
+          - generic "Navigation Area"
+    - generic:
+      - generic:
+        - generic:
+          - navigation "Navigation Row":
+            - generic "Navigation Row":
+              - generic "Navigation Area"
+    - generic [ref=e72]:
+      - navigation "Navigation Row" [ref=e73]:
+        - generic "Navigation Row" [ref=e74]:
+          - generic "Navigation Area" [ref=e75]:
+            - link "Recipes Chevron" [ref=e77] [cursor=pointer]:
+              - /url: /recipes
+              - generic [ref=e79]: Recipes
+              - img "Chevron" [ref=e81]
+            - link "Drinks" [ref=e84] [cursor=pointer]:
+              - /url: /drinks
+              - generic [ref=e86]: Drinks
+            - link "Cooking" [ref=e88] [cursor=pointer]:
+              - /url: /cooking
+              - generic [ref=e90]: Cooking
+            - link "Shopping" [ref=e92] [cursor=pointer]:
+              - /url: /shopping
+              - generic [ref=e94]: Shopping
+            - link "Restaurants" [ref=e96] [cursor=pointer]:
+              - /url: "/restaurants "
+              - generic [ref=e98]: Restaurants
+            - link "Culture" [ref=e100] [cursor=pointer]:
+              - /url: /culture
+              - generic [ref=e102]: Culture
+            - link "Video" [ref=e104] [cursor=pointer]:
+              - /url: /video
+              - generic [ref=e106]: Video
+          - generic "Navigation Area" [ref=e107]:
+            - link "Podcast" [ref=e109] [cursor=pointer]:
+              - /url: https://www.bonappetit.com/podcast/dinner-sos
+              - generic [ref=e111]: Podcast
+            - link "Merch" [ref=e113] [cursor=pointer]:
+              - /url: https://shop.bonappetit.com/
+              - generic [ref=e115]: Merch
+            - link "Culinary Getaways" [ref=e117] [cursor=pointer]:
+              - /url: https://www.bonappetit.com/story/culinary-getaways
+              - generic [ref=e119]: Culinary Getaways
+            - link "Bon Appétit Wine Shop" [ref=e121] [cursor=pointer]:
+              - /url: http://bonappetitwineshop.com/
+              - generic [ref=e123]: Bon Appétit Wine Shop
+          - generic "Navigation Area" [ref=e124]:
+            - link "Search Search" [ref=e126] [cursor=pointer]:
+              - /url: /search
+              - generic [ref=e127]:
+                - img "Search" [ref=e129]
+                - generic [ref=e131]: Search
+            - link "Sign In" [ref=e135] [cursor=pointer]:
+              - /url: /auth/initiate?redirectURL=%2Frecipe%2Fperfect-ribeye&source=VERSO_NAVIGATION
+              - generic [ref=e137]: Sign In
+            - link "Newsletter" [ref=e139] [cursor=pointer]:
+              - /url: /newsletter?sourceCode=hamburgernav
+              - generic [ref=e141]: Newsletter
+      - navigation "Navigation Row":
+        - generic "Navigation Row"
+    - generic:
+      - generic:
+        - generic:
+          - navigation "Navigation Row":
+            - generic "Navigation Row":
+              - generic "Navigation Area"
+    - generic:
+      - complementary
+    - main [ref=e142]:
+      - generic [ref=e147]:
+        - generic "UtilityPageHeader" [ref=e148]:
+          - generic [ref=e149]:
+            - heading "Oops" [level=1] [ref=e150]
+            - heading "The page you're looking for cannot be found." [level=2] [ref=e151]
+        - generic [ref=e152]: "Status Code: 404"
+        - link "Go to our homepage" [ref=e153] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e154]: Go to our homepage
+    - contentinfo [ref=e158]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - link "Bon Appétit" [ref=e162] [cursor=pointer]:
+            - /url: /
+            - img "Bon Appétit" [ref=e165]
+          - generic [ref=e167]: Recipes you want to make. Cooking advice that works. Restaurant recommendations you trust.
+          - list [ref=e169]:
+            - listitem [ref=e170]:
+              - link "Follow us on Facebook" [ref=e171] [cursor=pointer]:
+                - /url: https://www.facebook.com/bonappetitmag
+                - img "Facebook" [ref=e174]
+            - listitem [ref=e176]:
+              - link "Follow us on X" [ref=e177] [cursor=pointer]:
+                - /url: https://twitter.com/bonappetit/
+                - img "X" [ref=e180]
+            - listitem [ref=e182]:
+              - link "Follow us on Pinterest" [ref=e183] [cursor=pointer]:
+                - /url: https://www.pinterest.com/bonappetitmag/
+                - img "Pinterest" [ref=e186]
+            - listitem [ref=e188]:
+              - link "Follow us on Instagram" [ref=e189] [cursor=pointer]:
+                - /url: https://www.instagram.com/bonappetitmag
+                - img "Instagram" [ref=e192]
+            - listitem [ref=e194]:
+              - link "Follow us on YouTube" [ref=e195] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCbpMy0Fg74eXXkvxJrtEn3w
+                - img "YouTube" [ref=e198]
+        - navigation "More from Bon Appétit" [ref=e200]:
+          - paragraph [ref=e201]: More from Bon Appétit
+          - list [ref=e202]:
+            - listitem [ref=e203]:
+              - link "ABOUT US" [ref=e204] [cursor=pointer]:
+                - /url: https://www.bonappetit.com/story/about-us
+            - listitem [ref=e205]:
+              - link "Masthead" [ref=e206] [cursor=pointer]:
+                - /url: /story/digital-masthead
+            - listitem [ref=e207]:
+              - link "Newsletter Signup" [ref=e208] [cursor=pointer]:
+                - /url: /newsletter
+            - listitem [ref=e209]:
+              - link "Bon Appétit Media Kit" [ref=e210] [cursor=pointer]:
+                - /url: http://www.condenast.com/brands/bon-appetit/
+            - listitem [ref=e211]:
+              - link "EPICURIOUS" [ref=e212] [cursor=pointer]:
+                - /url: https://www.epicurious.com/
+            - listitem [ref=e213]:
+              - link "Find Us on the Epicurious App" [ref=e214] [cursor=pointer]:
+                - /url: https://apps.apple.com/app/apple-store/id312101965?pt=45076&ct=BA_Site_Footer&mt=8
+            - listitem [ref=e215]:
+              - link "Archive" [ref=e216] [cursor=pointer]:
+                - /url: https://archive.bonappetit.com/
+            - listitem [ref=e217]:
+              - link "Subscribe" [ref=e218] [cursor=pointer]:
+                - /url: https://www.bonappetit.com/subscribe
+        - navigation "Contact" [ref=e219]:
+          - paragraph [ref=e220]: Contact
+          - list [ref=e221]:
+            - listitem [ref=e222]:
+              - link "Subscription FAQs" [ref=e223] [cursor=pointer]:
+                - /url: /story/subscription-faq
+            - listitem [ref=e224]:
+              - link "Manage Account" [ref=e225] [cursor=pointer]:
+                - /url: https://www.bonappetit.com/account/profile
+            - listitem [ref=e226]:
+              - link "Careers" [ref=e227] [cursor=pointer]:
+                - /url: https://www.condenast.com/careers/
+            - listitem [ref=e228]:
+              - link "Contact Us" [ref=e229] [cursor=pointer]:
+                - /url: https://www.bonappetit.com/info/contact-us
+        - generic [ref=e231]:
+          - navigation "Notices" [ref=e232]:
+            - list [ref=e233]:
+              - listitem [ref=e234]:
+                - link "User Agreement" [ref=e235] [cursor=pointer]:
+                  - /url: https://www.condenast.com/user-agreement/
+              - listitem [ref=e236]:
+                - text: "|"
+                - link "Privacy Policy" [ref=e237] [cursor=pointer]:
+                  - /url: http://www.condenast.com/privacy-policy#privacypolicy
+              - listitem [ref=e238]:
+                - text: "|"
+                - link "Your California Privacy Rights" [ref=e239] [cursor=pointer]:
+                  - /url: http://www.condenast.com/privacy-policy#privacypolicy-california
+              - listitem [ref=e240]:
+                - text: "|"
+                - link "RSS Feeds" [ref=e241] [cursor=pointer]:
+                  - /url: /rss-feeds
+              - listitem [ref=e242]:
+                - text: "|"
+                - link "Site Map" [ref=e243] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=e244]:
+                - text: "|"
+                - link "Accessibility Help" [ref=e245] [cursor=pointer]:
+                  - /url: /story/accessibility-help
+              - listitem [ref=e246]:
+                - text: "|"
+                - link "Condé Nast Store" [ref=e247] [cursor=pointer]:
+                  - /url: https://www.condenaststore.com/
+              - listitem [ref=e248]:
+                - text: "|"
+                - img [ref=e250]
+                - button "Privacy Information" [ref=e262] [cursor=pointer]
+          - paragraph [ref=e264]:
+            - text: © 2026 Condé Nast. All rights reserved.
+            - emphasis [ref=e265]: Bon Appétit
+            - text: may earn a portion of sales from products that are purchased through our site as part of our Affiliate Partnerships with retailers. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast.
+            - link "Ad Choices" [ref=e266] [cursor=pointer]:
+              - /url: http://www.aboutads.info
+          - paragraph [ref=e268]: Food Innovation Group
+  - region "Live chat"

@@ -1,0 +1,563 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Warner Bros. Discovery" [ref=e9] [cursor=pointer]:
+          - /url: https://www.wbd.com/
+          - img "Warner Bros. Discovery" [ref=e10]
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "Our Leadership" [ref=e14] [cursor=pointer]:
+              - /url: /leadership
+          - listitem [ref=e15] [cursor=pointer]:
+            - link "Our Values " [ref=e16]:
+              - /url: "##"
+          - listitem [ref=e17]:
+            - link "Our Brands" [ref=e18] [cursor=pointer]:
+              - /url: /our-brands
+          - listitem [ref=e19]:
+            - link "Newsroom" [ref=e20] [cursor=pointer]:
+              - /url: /newsroom
+          - listitem [ref=e21]:
+            - link "Careers" [ref=e22] [cursor=pointer]:
+              - /url: https://careers.wbd.com/
+          - listitem [ref=e23]:
+            - link "Investor Relations" [ref=e24] [cursor=pointer]:
+              - /url: https://ir.wbd.com/
+        - generic "WBD Stock Price" [ref=e26]:
+          - generic [ref=e27]: WBD
+          - generic [ref=e28]: "27.24"
+          - generic [ref=e29]: "+0.13"
+    - main [ref=e31]:
+      - article [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: 
+            - text: Warner Bros. Discovery First Quarter 2026 Earnings
+            - link "Listen to the Replay" [ref=e39] [cursor=pointer]:
+              - /url: https://events.q4inc.com/attendee/912554073
+          - generic [ref=e40]:
+            - generic [ref=e57]:
+              - link [ref=e61] [cursor=pointer]:
+                - /url: "https://www.tabichan.jp/ "
+                - img [ref=e62]
+              - link [ref=e66] [cursor=pointer]:
+                - /url: "https://www.discoverylife.com/ "
+                - img [ref=e67]
+              - link [ref=e71] [cursor=pointer]:
+                - /url: "https://www.pogo.tv/index.html "
+                - img [ref=e72]
+              - link [ref=e76] [cursor=pointer]:
+                - /url: "https://www.mondotv.jp/ "
+                - img [ref=e77]
+              - link [ref=e81] [cursor=pointer]:
+                - /url: "http://www.tooncast.tv/ "
+                - img [ref=e82]
+              - link "CNN en Español" [ref=e86] [cursor=pointer]:
+                - /url: "https://cnnespanol.cnn.com/ "
+                - img "CNN en Español" [ref=e87]
+              - link "Discovery Turbo logo" [ref=e91] [cursor=pointer]:
+                - /url: "https://www.instagram.com/discoveryturbous "
+                - img "Discovery Turbo logo" [ref=e92]
+              - link "HBO Max" [ref=e96] [cursor=pointer]:
+                - /url: "https://hbomax.com "
+                - img "HBO Max" [ref=e97]
+              - link "HBO" [ref=e101] [cursor=pointer]:
+                - /url: "https://hbo.com "
+                - img "HBO" [ref=e102]
+              - link "Warner Bros." [ref=e106] [cursor=pointer]:
+                - /url: "https://www.warnerbros.com/ "
+                - img "Warner Bros." [ref=e107]
+              - link "HGTV" [ref=e111] [cursor=pointer]:
+                - /url: "https://hgtv.com "
+                - img "HGTV" [ref=e112]
+              - link "Discovery" [ref=e116] [cursor=pointer]:
+                - /url: "https://discovery.com "
+                - img "Discovery" [ref=e117]
+              - link [ref=e121] [cursor=pointer]:
+                - /url: "https://discoveryplus.com "
+                - img [ref=e122]
+              - link [ref=e126] [cursor=pointer]:
+                - /url: "https://www.tbs.com/ "
+                - img [ref=e127]
+              - link [ref=e131] [cursor=pointer]:
+                - /url: "https://foodnetwork.com/ "
+                - img [ref=e132]
+              - link [ref=e136] [cursor=pointer]:
+                - /url: "https://cnn.com/ "
+                - img [ref=e137]
+              - link [ref=e141] [cursor=pointer]:
+                - /url: "https://www.tntdrama.com/ "
+                - img [ref=e142]
+              - link [ref=e146] [cursor=pointer]:
+                - /url: "https://www.oprah.com/app/own-tv.html "
+                - img [ref=e147]
+              - link [ref=e151] [cursor=pointer]:
+                - /url: "https://www.investigationdiscovery.com/ "
+                - img [ref=e152]
+              - link [ref=e156] [cursor=pointer]:
+                - /url: "https://tlc.com/ "
+                - img [ref=e157]
+              - link [ref=e161] [cursor=pointer]:
+                - /url: "https://www.dccomics.com/ "
+                - img [ref=e162]
+              - link [ref=e166] [cursor=pointer]:
+                - /url: "https://www.warnerbros.com/company/divisions/television "
+                - img [ref=e167]
+              - link [ref=e171] [cursor=pointer]:
+                - /url: "https://www.warnerbros.com/company/divisions/motion-pictures "
+                - img [ref=e172]
+              - link [ref=e176] [cursor=pointer]:
+                - /url: "https://wbd.com/tnt-sports/ "
+                - img [ref=e177]
+              - link [ref=e181] [cursor=pointer]:
+                - /url: "https://www.eurosport.com/ "
+                - img [ref=e182]
+              - link [ref=e186] [cursor=pointer]:
+                - /url: "https://magnolia.com/network/ "
+                - img [ref=e187]
+              - link [ref=e191] [cursor=pointer]:
+                - /url: "https://www.cookingchanneltv.com/ "
+                - img [ref=e192]
+              - link [ref=e196] [cursor=pointer]:
+                - /url: "https://warnerbrosgames.com/ "
+                - img [ref=e197]
+              - link [ref=e201] [cursor=pointer]:
+                - /url: "https://www.animalplanet.com/ "
+                - img [ref=e202]
+              - link [ref=e206] [cursor=pointer]:
+                - /url: "https://www.adultswim.com/ "
+                - img [ref=e207]
+              - link [ref=e211] [cursor=pointer]:
+                - /url: "https://www.cnn.com/specials/videos/hln "
+                - img [ref=e212]
+              - link [ref=e216] [cursor=pointer]:
+                - /url: "https://www.cartoonnetwork.com/ "
+                - img [ref=e217]
+              - link [ref=e221] [cursor=pointer]:
+                - /url: "https://www.warnerbros.com/company/divisions/motion-pictures "
+                - img [ref=e222]
+              - link [ref=e226] [cursor=pointer]:
+                - /url: "https://www.golfdigest.com/ "
+                - img [ref=e227]
+              - link [ref=e231] [cursor=pointer]:
+                - /url: "https://www.travelchannel.com/ "
+                - img [ref=e232]
+              - link [ref=e236] [cursor=pointer]:
+                - /url: "https://www.hogarhgtv.com/ "
+                - img [ref=e237]
+              - link [ref=e241] [cursor=pointer]:
+                - /url: "https://onefifty.com/ "
+                - img [ref=e242]
+              - link [ref=e246] [cursor=pointer]:
+                - /url: "https://wbd.com/our-brands/ "
+                - img [ref=e247]
+              - link [ref=e251] [cursor=pointer]:
+                - /url: "https://www.cartoonnetwork.com/cartoonito/ "
+                - img [ref=e252]
+              - link [ref=e256] [cursor=pointer]:
+                - /url: "https://www.discoveryplus.com/gb/channel/quest "
+                - img [ref=e257]
+              - link [ref=e261] [cursor=pointer]:
+                - /url: "https://discoveryplus.co.uk/channels/quest-red "
+                - img [ref=e262]
+              - link [ref=e266] [cursor=pointer]:
+                - /url: "https://www.discoveryenespanol.com/ "
+                - img [ref=e267]
+              - link [ref=e271] [cursor=pointer]:
+                - /url: "https://www.trutv.com/ "
+                - img [ref=e272]
+              - link [ref=e276] [cursor=pointer]:
+                - /url: "https://www.cinemax.com/ "
+                - img [ref=e277]
+              - link [ref=e281] [cursor=pointer]:
+                - /url: "https://www.tvn.pl/ "
+                - img [ref=e282]
+              - link [ref=e286] [cursor=pointer]:
+                - /url: "https://www.sciencechannel.com/ "
+                - img [ref=e287]
+              - link [ref=e291] [cursor=pointer]:
+                - /url: "https://www.ahctv.com/ "
+                - img [ref=e292]
+              - link [ref=e296] [cursor=pointer]:
+                - /url: "https://asianfoodnetwork.com/ "
+                - img [ref=e297]
+              - link [ref=e301] [cursor=pointer]:
+                - /url: "https://bleacherreport.com/ "
+                - img [ref=e302]
+              - link [ref=e306] [cursor=pointer]:
+                - /url: "https://www.destinationamerica.com/ "
+                - img [ref=e307]
+              - link [ref=e311] [cursor=pointer]:
+                - /url: "https://www.tcm.com/ "
+                - img [ref=e312]
+              - link [ref=e316] [cursor=pointer]:
+                - /url: "https://www.boingtv.it/ "
+                - img [ref=e317]
+              - link [ref=e321] [cursor=pointer]:
+                - /url: "https://warnertv.de/ "
+                - img [ref=e322]
+              - link [ref=e326] [cursor=pointer]:
+                - /url: "http://www.discoveryfamilychannel.com/ "
+                - img [ref=e327]
+              - link [ref=e331] [cursor=pointer]:
+                - /url: "https://www.boomerang.com/ "
+                - img [ref=e332]
+              - link [ref=e336] [cursor=pointer]:
+                - /url: "https://dmax.de/ "
+                - img [ref=e337]
+              - link [ref=e341] [cursor=pointer]:
+                - /url: "https://realtime.it/ "
+                - img [ref=e342]
+              - link [ref=e346] [cursor=pointer]:
+                - /url: "https://www.giallotv.it/ "
+                - img [ref=e347]
+              - link [ref=e351] [cursor=pointer]:
+                - /url: "https://frisbeetv.it/ "
+                - img [ref=e352]
+              - link [ref=e356] [cursor=pointer]:
+                - /url: "https://www.k2tv.it/ "
+                - img [ref=e357]
+              - link [ref=e361] [cursor=pointer]:
+                - /url: "https://www.discoveryplus.com/fi/channel/frii "
+                - img [ref=e362]
+              - link [ref=e366] [cursor=pointer]:
+                - /url: "https://nove.tv/ "
+                - img [ref=e367]
+              - link [ref=e371] [cursor=pointer]:
+                - /url: "https://discoverydenmark.dk/ "
+                - img [ref=e372]
+              - link [ref=e376] [cursor=pointer]:
+                - /url: "https://discoveryfamilia.com/ "
+                - img [ref=e377]
+              - link [ref=e381] [cursor=pointer]:
+                - /url: "https://www.tntgo.tv/ "
+                - img [ref=e382]
+              - link [ref=e386] [cursor=pointer]:
+                - /url: "https://www.tabichan.jp/ "
+                - img [ref=e387]
+              - link [ref=e391] [cursor=pointer]:
+                - /url: "https://www.discoverylife.com/ "
+                - img [ref=e392]
+              - link [ref=e396] [cursor=pointer]:
+                - /url: "https://www.pogo.tv/index.html "
+                - img [ref=e397]
+              - link [ref=e401] [cursor=pointer]:
+                - /url: "https://www.mondotv.jp/ "
+                - img [ref=e402]
+              - link [ref=e406] [cursor=pointer]:
+                - /url: "http://www.tooncast.tv/ "
+                - img [ref=e407]
+              - link [ref=e411] [cursor=pointer]:
+                - /url: "https://cnnespanol.cnn.com/ "
+                - img [ref=e412]
+              - link [ref=e416] [cursor=pointer]:
+                - /url: "https://www.instagram.com/discoveryturbous "
+                - img [ref=e417]
+              - link [ref=e421] [cursor=pointer]:
+                - /url: "https://hbomax.com "
+                - img [ref=e422]
+              - link [ref=e426] [cursor=pointer]:
+                - /url: "https://hbo.com "
+                - img [ref=e427]
+              - link [ref=e431] [cursor=pointer]:
+                - /url: "https://www.warnerbros.com/ "
+                - img [ref=e432]
+              - link [ref=e436] [cursor=pointer]:
+                - /url: "https://hgtv.com "
+                - img [ref=e437]
+              - link [ref=e441] [cursor=pointer]:
+                - /url: "https://discovery.com "
+                - img [ref=e442]
+              - link [ref=e446] [cursor=pointer]:
+                - /url: "https://discoveryplus.com "
+                - img [ref=e447]
+              - link [ref=e451] [cursor=pointer]:
+                - /url: "https://www.tbs.com/ "
+                - img [ref=e452]
+              - link [ref=e456] [cursor=pointer]:
+                - /url: "https://foodnetwork.com/ "
+                - img [ref=e457]
+              - link [ref=e461] [cursor=pointer]:
+                - /url: "https://cnn.com/ "
+                - img [ref=e462]
+              - link [ref=e466] [cursor=pointer]:
+                - /url: "https://www.tntdrama.com/ "
+                - img [ref=e467]
+              - link [ref=e471] [cursor=pointer]:
+                - /url: "https://www.oprah.com/app/own-tv.html "
+                - img [ref=e472]
+              - link [ref=e476] [cursor=pointer]:
+                - /url: "https://www.investigationdiscovery.com/ "
+                - img [ref=e477]
+              - link [ref=e481] [cursor=pointer]:
+                - /url: "https://tlc.com/ "
+                - img [ref=e482]
+              - link [ref=e486] [cursor=pointer]:
+                - /url: "https://www.dccomics.com/ "
+                - img [ref=e487]
+              - link [ref=e491] [cursor=pointer]:
+                - /url: "https://www.warnerbros.com/company/divisions/television "
+                - img [ref=e492]
+              - link [ref=e496] [cursor=pointer]:
+                - /url: "https://www.warnerbros.com/company/divisions/motion-pictures "
+                - img [ref=e497]
+              - link [ref=e501] [cursor=pointer]:
+                - /url: "https://wbd.com/tnt-sports/ "
+                - img [ref=e502]
+              - link [ref=e506] [cursor=pointer]:
+                - /url: "https://www.eurosport.com/ "
+                - img [ref=e507]
+              - link [ref=e511] [cursor=pointer]:
+                - /url: "https://magnolia.com/network/ "
+                - img [ref=e512]
+              - link [ref=e516] [cursor=pointer]:
+                - /url: "https://www.cookingchanneltv.com/ "
+                - img [ref=e517]
+              - link [ref=e521] [cursor=pointer]:
+                - /url: "https://warnerbrosgames.com/ "
+                - img [ref=e522]
+              - link [ref=e526] [cursor=pointer]:
+                - /url: "https://www.animalplanet.com/ "
+                - img [ref=e527]
+              - link [ref=e531] [cursor=pointer]:
+                - /url: "https://www.adultswim.com/ "
+                - img [ref=e532]
+              - link [ref=e536] [cursor=pointer]:
+                - /url: "https://www.cnn.com/specials/videos/hln "
+                - img [ref=e537]
+              - link [ref=e541] [cursor=pointer]:
+                - /url: "https://www.cartoonnetwork.com/ "
+                - img [ref=e542]
+              - link [ref=e546] [cursor=pointer]:
+                - /url: "https://www.warnerbros.com/company/divisions/motion-pictures "
+                - img [ref=e547]
+              - link [ref=e551] [cursor=pointer]:
+                - /url: "https://www.golfdigest.com/ "
+                - img [ref=e552]
+              - link [ref=e556] [cursor=pointer]:
+                - /url: "https://www.travelchannel.com/ "
+                - img [ref=e557]
+              - link [ref=e561] [cursor=pointer]:
+                - /url: "https://www.hogarhgtv.com/ "
+                - img [ref=e562]
+              - link [ref=e566] [cursor=pointer]:
+                - /url: "https://onefifty.com/ "
+                - img [ref=e567]
+              - link [ref=e571] [cursor=pointer]:
+                - /url: "https://wbd.com/our-brands/ "
+                - img [ref=e572]
+              - link [ref=e576] [cursor=pointer]:
+                - /url: "https://www.cartoonnetwork.com/cartoonito/ "
+                - img [ref=e577]
+              - link [ref=e581] [cursor=pointer]:
+                - /url: "https://www.discoveryplus.com/gb/channel/quest "
+                - img [ref=e582]
+              - link [ref=e586] [cursor=pointer]:
+                - /url: "https://discoveryplus.co.uk/channels/quest-red "
+                - img [ref=e587]
+              - link [ref=e591] [cursor=pointer]:
+                - /url: "https://www.discoveryenespanol.com/ "
+                - img [ref=e592]
+              - link [ref=e596] [cursor=pointer]:
+                - /url: "https://www.trutv.com/ "
+                - img [ref=e597]
+              - link [ref=e601] [cursor=pointer]:
+                - /url: "https://www.cinemax.com/ "
+                - img [ref=e602]
+              - link [ref=e606] [cursor=pointer]:
+                - /url: "https://www.tvn.pl/ "
+                - img [ref=e607]
+              - link [ref=e611] [cursor=pointer]:
+                - /url: "https://www.sciencechannel.com/ "
+                - img [ref=e612]
+              - link [ref=e616] [cursor=pointer]:
+                - /url: "https://www.ahctv.com/ "
+                - img [ref=e617]
+              - link [ref=e621] [cursor=pointer]:
+                - /url: "https://asianfoodnetwork.com/ "
+                - img [ref=e622]
+              - link [ref=e626] [cursor=pointer]:
+                - /url: "https://bleacherreport.com/ "
+                - img [ref=e627]
+              - link [ref=e631] [cursor=pointer]:
+                - /url: "https://www.destinationamerica.com/ "
+                - img [ref=e632]
+              - link [ref=e636] [cursor=pointer]:
+                - /url: "https://www.tcm.com/ "
+                - img [ref=e637]
+              - link [ref=e641] [cursor=pointer]:
+                - /url: "https://www.boingtv.it/ "
+                - img [ref=e642]
+              - link [ref=e646] [cursor=pointer]:
+                - /url: "https://warnertv.de/ "
+                - img [ref=e647]
+              - link [ref=e651] [cursor=pointer]:
+                - /url: "http://www.discoveryfamilychannel.com/ "
+                - img [ref=e652]
+              - link [ref=e656] [cursor=pointer]:
+                - /url: "https://www.boomerang.com/ "
+                - img [ref=e657]
+              - link [ref=e661] [cursor=pointer]:
+                - /url: "https://dmax.de/ "
+                - img [ref=e662]
+              - link [ref=e666] [cursor=pointer]:
+                - /url: "https://realtime.it/ "
+                - img [ref=e667]
+              - link [ref=e671] [cursor=pointer]:
+                - /url: "https://www.giallotv.it/ "
+                - img [ref=e672]
+              - link [ref=e676] [cursor=pointer]:
+                - /url: "https://frisbeetv.it/ "
+                - img [ref=e677]
+              - link [ref=e681] [cursor=pointer]:
+                - /url: "https://www.k2tv.it/ "
+                - img [ref=e682]
+              - link [ref=e686] [cursor=pointer]:
+                - /url: "https://www.discoveryplus.com/fi/channel/frii "
+                - img [ref=e687]
+              - link [ref=e691] [cursor=pointer]:
+                - /url: "https://nove.tv/ "
+                - img [ref=e692]
+              - link [ref=e696] [cursor=pointer]:
+                - /url: "https://discoverydenmark.dk/ "
+                - img [ref=e697]
+              - link [ref=e701] [cursor=pointer]:
+                - /url: "https://discoveryfamilia.com/ "
+                - img [ref=e702]
+              - link [ref=e706] [cursor=pointer]:
+                - /url: "https://www.tntgo.tv/ "
+                - img [ref=e707]
+              - link [ref=e711] [cursor=pointer]:
+                - /url: "https://www.tabichan.jp/ "
+                - img [ref=e712]
+              - link [ref=e716] [cursor=pointer]:
+                - /url: "https://www.discoverylife.com/ "
+                - img [ref=e717]
+              - link [ref=e721] [cursor=pointer]:
+                - /url: "https://www.pogo.tv/index.html "
+                - img [ref=e722]
+              - link [ref=e726] [cursor=pointer]:
+                - /url: "https://www.mondotv.jp/ "
+                - img [ref=e727]
+              - link [ref=e731] [cursor=pointer]:
+                - /url: "http://www.tooncast.tv/ "
+                - img [ref=e732]
+              - link [ref=e736] [cursor=pointer]:
+                - /url: "https://cnnespanol.cnn.com/ "
+                - img [ref=e737]
+              - link [ref=e741] [cursor=pointer]:
+                - /url: "https://www.instagram.com/discoveryturbous "
+                - img [ref=e742]
+            - generic "Carousel Navigation" [ref=e750]:
+              - button "prev" [disabled] [ref=e751] [cursor=pointer]
+              - button "next" [ref=e752] [cursor=pointer]
+            - generic "Carousel Navigation" [ref=e759]:
+              - button "prev" [disabled] [ref=e760] [cursor=pointer]
+              - button "next" [ref=e761] [cursor=pointer]
+            - figure [ref=e771]:
+              - img "Work With Us" [ref=e772]
+    - contentinfo [ref=e773]:
+      - navigation [ref=e774]:
+        - list [ref=e779]:
+          - listitem [ref=e780]:
+            - link "" [ref=e781] [cursor=pointer]:
+              - /url: https://x.com/wbd
+              - generic [ref=e782]: X
+              - generic [ref=e783]: 
+          - listitem [ref=e784]:
+            - link "" [ref=e785] [cursor=pointer]:
+              - /url: https://www.instagram.com/wbd
+              - generic [ref=e786]: Instagram
+              - generic [ref=e787]: 
+          - listitem [ref=e788]:
+            - link "" [ref=e789] [cursor=pointer]:
+              - /url: https://www.facebook.com/WBD
+              - generic [ref=e790]: Facebook
+              - generic [ref=e791]: 
+          - listitem [ref=e792]:
+            - link "" [ref=e793] [cursor=pointer]:
+              - /url: https://www.youtube.com/wbd
+              - generic [ref=e794]: YouTube
+              - generic [ref=e795]: 
+          - listitem [ref=e796]:
+            - link "" [ref=e797] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/warner-bros-discovery
+              - generic [ref=e798]: LinkedIn
+              - generic [ref=e799]: 
+      - generic [ref=e801]:
+        - img "Warner Bros. Discovery" [ref=e803]
+        - navigation "Footer" [ref=e807]:
+          - heading "Footer" [level=2] [ref=e808]
+          - list [ref=e809]:
+            - listitem [ref=e810]:
+              - link "Terms of Use" [ref=e811] [cursor=pointer]:
+                - /url: https://policies.warnerbros.com/terms/en-us/
+            - listitem [ref=e812]:
+              - link "Privacy Policy" [ref=e813] [cursor=pointer]:
+                - /url: https://www.wbdprivacy.com/policycenter/b2c
+            - listitem [ref=e814]:
+              - link "WBD Workforce Privacy Notice" [ref=e815] [cursor=pointer]:
+                - /url: https://wbd.com/wbd-workforce-privacy-notice/
+            - listitem [ref=e816]:
+              - link "California Rights" [ref=e817] [cursor=pointer]:
+                - /url: https://wbd.com/want-to-exercise-your-california-rights/
+            - listitem [ref=e818]:
+              - link "Accessibility Statement" [ref=e819] [cursor=pointer]:
+                - /url: https://wbd.com/accessibility-statement/
+            - listitem [ref=e820]:
+              - link "Forward-Looking Statements" [ref=e821] [cursor=pointer]:
+                - /url: https://wbd.com/forward-looking-statements/
+            - listitem [ref=e822]:
+              - link "Modern Slavery Statement" [ref=e823] [cursor=pointer]:
+                - /url: https://static-wbd-cdn.wbd.com/s3_assets/docs/2025-07/global_msa_statement_2024.pdf
+            - listitem [ref=e824]:
+              - link "Global Tax Policy" [ref=e825] [cursor=pointer]:
+                - /url: https://wbd.com/warner-bros-discovery-global-tax-strategy-statement/
+            - listitem [ref=e826]:
+              - link "Code of Ethics" [ref=e827] [cursor=pointer]:
+                - /url: https://ir.wbd.com/governance/ethics/default.aspx
+            - listitem [ref=e828]:
+              - link "Procurement" [ref=e829] [cursor=pointer]:
+                - /url: https://wbd.com/procurement-strategic-sourcing/
+            - listitem [ref=e830]:
+              - link "Equal Employment Opportunity" [ref=e831] [cursor=pointer]:
+                - /url: https://wbd.com/equal-employment-opportunity-policy-global/
+            - listitem [ref=e832]:
+              - link "UK Gender Pay Gap Reports" [ref=e833] [cursor=pointer]:
+                - /url: https://wbd.com/uk-gender-pay-gap-reports/
+            - listitem [ref=e834]:
+              - link "BR Gender Pay Gap Reports" [ref=e835] [cursor=pointer]:
+                - /url: https://static-wbd-cdn.wbd.com/s3_assets/docs/2026-04/equalpay2615_002.pdf
+            - listitem [ref=e836]:
+              - link "FR Gender Pay Gap Reports" [ref=e837] [cursor=pointer]:
+                - /url: /fr-gender-pay-gap-reports
+            - listitem [ref=e838]:
+              - link "Mitigation Measures for Chile" [ref=e839] [cursor=pointer]:
+                - /url: https://static-wbd-cdn.wbd.com/s3_assets/wp-content/uploads/2022/04/Medidas_de_MItigacion_Chile.pdf
+            - listitem [ref=e840]:
+              - link "Accessibility Plan for You.i, Ontario" [ref=e841] [cursor=pointer]:
+                - /url: https://static-wbd-cdn.wbd.com/s3_assets/wp-content/uploads/2024/02/You-i-Multi-Year-Accessibility-Plan-2012-2025.reviewed.pdf
+            - listitem [ref=e842]:
+              - link "Accessibility Policy for You.i, Ontario" [ref=e843] [cursor=pointer]:
+                - /url: https://static-wbd-cdn.wbd.com/s3_assets/wp-content/uploads/2024/03/WarnerMedia-Ottawa-Accessibility-Policy-2021.pdf
+            - listitem [ref=e844]:
+              - link "Responsible Disclosure" [ref=e845] [cursor=pointer]:
+                - /url: https://wbd.com/report-security-vulnerability/
+            - listitem [ref=e846]:
+              - link "HBO Legal Documents for Poland" [ref=e847] [cursor=pointer]:
+                - /url: https://wbd.com/hbo-legal-documents-for-poland/
+            - listitem [ref=e848]:
+              - link "WBD Brand Resources" [ref=e849] [cursor=pointer]:
+                - /url: https://brand.wbd.com/
+            - listitem [ref=e850]:
+              - link "Networks Newsletter Signups" [ref=e851] [cursor=pointer]:
+                - /url: /network-newsletters
+            - listitem [ref=e852]:
+              - link "Clip & Still Licensing" [ref=e853] [cursor=pointer]:
+                - /url: https://static-wbd-cdn.wbd.com/s3_assets/wp-content/uploads/2024/04/LICENSING-SUBMISSION-FORM-2024-WBD.pdf
+      - generic [ref=e854]:
+        - paragraph [ref=e855]: © 2026 Warner Bros. Discovery, Inc. or its subsidiaries and affiliates.
+        - paragraph [ref=e856]: All trademarks are the property of their respective owners. All rights reserved.

@@ -1,0 +1,633 @@
+- generic [active] [ref=e1]:
+  - link "Ir al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e14]:
+          - link "Logo ABC" [ref=e15] [cursor=pointer]:
+            - /url: https://www.abc.es/
+            - img "Logo ABC" [ref=e16]
+        - generic [ref=e20]:
+          - link "Recetas de rechupete" [ref=e25] [cursor=pointer]:
+            - /url: https://www.abc.es/recetasderechupete/
+            - img "Recetas de rechupete" [ref=e26]
+          - navigation "Navegación del sitio principal" [ref=e32]:
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - link "Todas las recetas Conmutador del menú" [ref=e36] [cursor=pointer]:
+                  - /url: https://www.abc.es/recetasderechupete/todas-las-categorias-de-recetas/
+                  - generic [ref=e37]: Todas las recetas
+                  - application "Conmutador del menú" [ref=e38]:
+                    - img [ref=e40]
+          - button "Search icon link" [ref=e46] [cursor=pointer]:
+            - img [ref=e49]
+        - navigation "Navegación del sitio secundaria" [ref=e59]:
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - link "Salmorejo" [ref=e63] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/salmorejo-cordobes-receta-paso-a-paso/3753/
+                - generic [ref=e64]: Salmorejo
+            - listitem [ref=e65]:
+              - link "Gazpacho" [ref=e66] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/gazpacho-andaluz-una-receta-con-la-alegria-de-la-huerta-el-tomate/5701/
+                - generic [ref=e67]: Gazpacho
+            - listitem [ref=e68]:
+              - link "Habas con jamón" [ref=e69] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/habas-con-jamon-receta-sencilla-y-completa-paso-a-paso/89843/
+                - generic [ref=e70]: Habas con jamón
+            - listitem [ref=e71]:
+              - link "Arroz con pollo" [ref=e72] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-arroz-con-pollo-y-verduras/581/
+                - generic [ref=e73]: Arroz con pollo
+            - listitem [ref=e74]:
+              - link "Recetas saludables" [ref=e75] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/recetas-sencillas-y-ligeras-para-volver-a-la-normalidad/52729/
+                - generic [ref=e76]: Recetas saludables
+            - listitem [ref=e77]:
+              - link "Bizcocho de yogur" [ref=e78] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/bizcocho-casero-de-yogur/10463/
+                - generic [ref=e79]: Bizcocho de yogur
+            - listitem [ref=e80]:
+              - link "Tortitas" [ref=e81] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-tortitas/11/
+                - generic [ref=e82]: Tortitas
+            - listitem [ref=e83]:
+              - link "Galletas" [ref=e84] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/16-recetas-de-galletas-que-puedes-hacer-en-casa/77139/
+                - generic [ref=e85]: Galletas
+    - generic [ref=e90]:
+      - heading "Arroz con pollo a la chorrera. Receta al estilo cubano" [level=1] [ref=e91]
+      - generic [ref=e92]:
+        - img "Icono dificultad" [ref=e93]
+        - text: Fácil
+        - img "Icono tiempo" [ref=e94]
+        - text: 50 min
+        - img "Icono chef" [ref=e95]
+        - text: Por Alfonso López Alonso
+        - generic [ref=e97]:
+          - generic "La odio" [ref=e98] [cursor=pointer]: 
+          - generic "No me gusta" [ref=e99] [cursor=pointer]: 
+          - generic "Ni fu ni fa" [ref=e100] [cursor=pointer]: 
+          - generic "Qué buena pinta" [ref=e101] [cursor=pointer]: 
+          - generic "¡De rechupete!" [ref=e102] [cursor=pointer]: 
+          - generic [ref=e103]:
+            - generic [ref=e104]: 4/5
+            - generic [ref=e105]: 4 votos
+      - img "Arroz con pollo a la chorrera. Receta al estilo cubano" [ref=e107]
+    - generic [ref=e109]:
+      - main [ref=e111]:
+        - article [ref=e112]:
+          - generic [ref=e114]:
+            - list [ref=e115]:
+              - listitem [ref=e116]:
+                - link "Enviar por WhatsApp" [ref=e117] [cursor=pointer]:
+                  - /url: whatsapp://send/?text=Arroz+con+pollo+a+la+chorrera.+Receta+al+estilo+cubano https%3A%2F%2Fwww.abc.es%2Frecetasderechupete%2Farroz-con-pollo-a-la-chorrera-receta-al-estilo-cubano%2F76002%2F
+                  - img "Icono WhatsApp" [ref=e118]
+              - listitem [ref=e119]:
+                - link "Compartir en Facebook" [ref=e120] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.abc.es%2Frecetasderechupete%2Farroz-con-pollo-a-la-chorrera-receta-al-estilo-cubano%2F76002%2F
+                  - img "Icono Facebook" [ref=e121]
+              - listitem [ref=e122]:
+                - link "Compartir en Twitter" [ref=e123] [cursor=pointer]:
+                  - /url: https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.abc.es%2Frecetasderechupete%2Farroz-con-pollo-a-la-chorrera-receta-al-estilo-cubano%2F76002%2F
+                  - img "Icono Twitter" [ref=e124]
+              - listitem [ref=e125]:
+                - link "Pin en Pinterest" [ref=e126] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.abc.es%2Frecetasderechupete%2Farroz-con-pollo-a-la-chorrera-receta-al-estilo-cubano%2F76002%2F&media=https%3A%2F%2Fwww.recetasderechupete.com%2Fwp-content%2Fuploads%2F2024%2F04%2FArroz-a-la-chorrera-portada.jpg&description=Arroz+con+pollo+a+la+chorrera.+Receta+al+estilo+cubano
+                  - img "Icono Pinterest" [ref=e127]
+            - paragraph [ref=e129]:
+              - generic [ref=e130]:
+                - img "Icono personas" [ref=e131]
+                - text: Para
+                - strong [ref=e132]: "4"
+              - generic [ref=e133]:
+                - img "Icono euro" [ref=e134]
+                - strong [ref=e135]: "2.4"
+                - text: €/pers.
+              - generic [ref=e136]:
+                - img "Icono calorias" [ref=e137]
+                - strong [ref=e138]: "270"
+                - text: kcal/100g
+            - generic [ref=e139]:
+              - heading "Ingredientes" [level=2] [ref=e140]
+              - list [ref=e141]:
+                - listitem [ref=e142]: 4 piezas o trozos de pollo (preferiblemente muslos)
+                - listitem [ref=e143]: 100 ml. de aceite de oliva virgen extra
+                - listitem [ref=e144]: 320 g. de arroz de grano largo
+                - listitem [ref=e145]: 250 ml. de cerveza (o vino blanco)
+                - listitem [ref=e146]: 60 ml. de salsa de tomate
+                - listitem [ref=e147]: 800 ml. de caldo de pollo
+                - listitem [ref=e148]: 1 pimiento rojo
+                - listitem [ref=e149]: 1 pimiento verde
+                - listitem [ref=e150]: 1 diente de ajo
+                - listitem [ref=e151]: 1/2 cucharadita de comino
+                - listitem [ref=e152]: 1/2 cebolla morada
+                - listitem [ref=e153]: 1 cucharadita de bijol, colorante amarillo o azafrán molido
+                - listitem [ref=e154]: 30 g. de guisantes en conserva o chícharos
+                - listitem [ref=e155]: 1 hoja de laurel
+                - listitem [ref=e156]: 1 cucharadita de pimentón dulce
+                - listitem [ref=e157]: 1 ají grande (opcional)
+                - listitem [ref=e158]: 2 g. de pimienta negra recién molida (opcional)
+                - listitem [ref=e159]: 5 g. de sal fina (o al gusto de cada casa)
+                - listitem [ref=e160]: Opcional para decorar, perejil fresco
+              - button "Ir al paso a paso ↓" [ref=e161] [cursor=pointer]
+            - paragraph [ref=e163]:
+              - text: La receta que vamos a preparar hoy nos traslada directamente a la Habana. El
+              - link "arroz con pollo" [ref=e164] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-arroz-con-pollo-y-verduras/581/
+              - text: a la chorrera es una
+              - link "receta de arroz meloso" [ref=e165] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/arroces/recetas-con-arroz-meloso/
+                - strong [ref=e166]: receta de arroz meloso
+              - text: típica de Cuba que se caracteriza por incluir cerveza durante la cocción.
+            - paragraph [ref=e167]: Cierra los ojos e imagina que estás en una pequeña casa de La Habana. Es un día soleado y de fondo alcanzas a escuchar una radio local que reproduce ritmos de una rumba cubana. Estás tranquilamente tumbado en una hamaca en mitad del porche cuando un chico te llama, con esa gracia cubana, para avisarte que la comida ya está lista. Te diriges a la mesa y tu nariz ya huele los fabulosos aromas que desprende el plato que acaban de servir, un arroz con pollo a la chorrera.
+            - paragraph [ref=e169]:
+              - text: El arroz está jugoso y lleno de sabor, y el pollo está tierno y sabroso. En la mesa también te han servido un
+              - link "mojito cubano" [ref=e170] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/como-hacer-un-mojito-cubano-perfecto/16486/
+                - strong [ref=e171]: mojito cubano
+              - text: para ayudar a pasar el arroz. Y es que
+              - strong [ref=e172]: este plato te traslada directamente a un país donde la gente es más feliz y el tiempo pasa más despacio
+              - text: . Disfrútalo.
+            - paragraph [ref=e174]:
+              - text: Esta receta
+              - link "es muy sencilla de preparar" [ref=e175] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/recetas-faciles/
+                - strong [ref=e176]: es muy sencilla de preparar
+              - text: y es una variante del arroz con pollo internacional. La diferencia es que en este caso se usa más caldo y el arroz tiene un aspecto más caldoso. Si quieres preparar otras variantes de esta receta internacional, te recomendamos, el
+              - link "arroz con pollo al curry" [ref=e177] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/pollo-al-curry-con-arroz-basmati-receta-paso-a-paso/8199/
+                - strong [ref=e178]: arroz con pollo al curry
+              - text: ","
+              - link "arroz a la cubana" [ref=e179] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/arroz-a-la-cubana/14140/
+                - strong [ref=e180]: arroz a la cubana
+              - text: ","
+              - link "arroz con frijoles a la cubana" [ref=e181] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/arroz-con-frijoles-a-la-cubana/34556/
+                - strong [ref=e182]: arroz con frijoles a la cubana
+              - text: o
+              - link "arroz chaufa" [ref=e183] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/arroz-con-frijoles-a-la-cubana/34556/
+                - strong [ref=e184]: arroz chaufa
+              - text: peruano.
+            - heading "Receta de arroz a la chorrera" [level=2] [ref=e185]
+            - figure [ref=e186]:
+              - img "Arroz con pollo a la chorrera. Receta al estilo cubano" [ref=e187]
+            - heading "Preparación receta arroz con pollo a la chorrera" [level=3] [ref=e188]
+            - list [ref=e189]:
+              - listitem [ref=e190]: Empezamos la receta partiendo la cebolla en trozos pequeños. También picamos los ajos muy finamente. Cortamos los pimientos en juliana (en tiras) y reservamos todo.
+              - listitem [ref=e191]: En una olla o cazuela grande, ponemos el aceite y dejamos que se caliente. Mientras tanto, vamos salpimentando los trozos de pollo y los ponemos en la cazuela. Durante unos 6 minutos vamos a ir dorando todas las caras de la carne.
+              - listitem [ref=e193]: Cuando los tengamos, retiramos todo el pollo y sofreímos la cebolla, el pimiento y el ajo por 2 minutos a fuego medio. Mezclamos todo bien. Si al sacar el pollo ves que falta aceite puedes echarle una nueva cucharada. Quitamos el pimiento una vez hecho y reservamos para la decoración final. Cuando la cebolla esté transparente, añadimos el arroz, sofriéndolo hasta que se vuelva transparente y mezclándolo todo bien
+              - listitem [ref=e194]: Una vez listo el arroz, añadimos el comino, el azafrán (o bijol), la salsa de tomate y cocinamos 1 minuto más, mezclándolo todo para que se integre bien. Enseguida añadimos el caldo y la cerveza. Subimos el fuego y mezclamos todo bien para que se cocine de forma homogénea.
+              - listitem [ref=e195]: A continuación, agregamos sal, pimienta molida al gusto y la hoja de laurel. Si os gusta el picante, sería el momento de añadir el ají, yo lo suelo poner entero, para luego localizarlo. Por último, añadimos la carne y dejamos cocinar durante 3 minutos a fuego alto para que se evapore parte del alcohol de la cerveza. Bajamos el fuego a media potencia, tapamos y cocinamos durante 18 minutos más.
+              - listitem [ref=e196]: Antes de llegar a cumplir los 18 minutos, cuando todavía queden al menos 5, añadimos los guisantes, removemos y terminamos de cocinar. Al finalizar, dejamos reposar el arroz durante 10 minutos más, quitamos la hoja de laurel.
+              - listitem [ref=e197]: Cortamos los pimientos en tiras y decoramos la cazuela con el pimiento antes de servir. Listo para que cada comensal se sirva en su plato, con un trozo de pollo para cada persona. Espero que os guste.
+            - heading "Consejos para un arroz a la chorrera de rechupete" [level=2] [ref=e199]
+            - list [ref=e200]:
+              - listitem [ref=e201]: Te recomendamos usar arroz de grano largo. Para este plato queda muy bien, más suelto y jugoso. Los tiempos de cocción los hemos dado para este tipo de arroz. Si no tuvieras este tipo de arroz, podrías utilizar un arroz redondo tipo bomba, ajustando los tiempos de cocción (unos 14 minutos en vez de 18).
+              - listitem [ref=e202]: Es importante que a la hora de picar las verduras hagas los trocitos muy pequeños, así conseguirás que no se note su textura, pero sí el sabor que le da al arroz.
+              - listitem [ref=e203]: Para darle más sabor al pollo puedes exprimir medio limón sobre las piezas cuando las salpimientes.
+              - listitem [ref=e204]: El caldo de pollo debe verterse ya caliente y la cerveza a temperatura ambiente.
+              - listitem [ref=e205]: La proporción total es de 2 medidas y media de líquido por cada taza de arroz, en este caso 320 g. de arroz y unos 800 ml. de líquido. Ten en cuenta que es un arroz que debe quedar meloso si lo quieres hacer con el auténtico estilo cubano.
+              - listitem [ref=e206]: Es preferible que no laves el arroz. El almidón del arroz ayuda a que quede más cremoso el plato.
+              - listitem [ref=e207]: Cuidado al remover los guisantes, son muy delicados y podrían llegar a romperse.
+            - figure [ref=e208]:
+              - img "Arroz con pollo a la chorrera. Receta al estilo cubano" [ref=e209]
+            - heading "El origen de la receta del arroz con pollo a la chorreta" [level=2] [ref=e210]
+            - paragraph [ref=e211]:
+              - text: El nombre de este plato viene del
+              - strong [ref=e212]: antiguo hotel Casa Arana
+              - text: (ya cerrado) donde se cocinaba este plato. El hotel se encontraba cerca del torreón de la Chorrera, una construcción que formaba parte de la defensa de la ciudad de la Habana, y de ahí coge el nombre este plato. El escritor Waldo Álvarez Insua menciona este plato en su novela
+              - emphasis [ref=e213]: "Finis: Últimos días de España en Cuba"
+              - text: (1901). A día de hoy es una receta que en toda casa cubana saben hacer.
+            - paragraph [ref=e214]:
+              - text: Parece ser que el arroz a la chorrera tiene su origen en la
+              - link "paella valenciana" [ref=e215] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/paella-valenciana/21607/
+                - strong [ref=e216]: paella valenciana
+              - text: . Aunque a diferencia del plato valenciano, en este, el arroz queda más meloso, como si fuera un
+              - link "risotto" [ref=e217] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/arroces/recetas-de-risotto/
+                - strong [ref=e218]: risotto
+              - text: . En Valencia, la paella se cocina con azafrán, en Cuba se usa polvo de bija. Como última diferencia, la receta del arroz a la chorrera utiliza cerveza para cocinar el arroz.
+            - paragraph [ref=e219]:
+              - text: La pinta de este delicioso plato cubano es increíble. Seguro que no puedes evitar repetir y trasladarte a esa mesa cubana de la que hablamos al principio del artículo. Disfruta mucho de la experiencia gastronómica. Si el espíritu cubano te ha invadido, te recomendamos hacer esta
+              - link "ropa vieja cubana con guarnición de arroz blanco" [ref=e220] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/como-hacer-una-ropa-vieja-cubana-con-guarnicion-de-arroz-blanco/55820/
+                - strong [ref=e221]: ropa vieja cubana con guarnición de arroz blanco
+              - text: como siguiente plato.
+            - paragraph [ref=e222]: "Última revisión: 1 enero 2025"
+            - group [ref=e223]:
+              - generic "Hemos trabajado 2 horas y 40 minutos para que disfrutes esta receta. ¿Cómo se calcula?" [ref=e224] [cursor=pointer]:
+                - text: Hemos trabajado
+                - strong [ref=e225]: 2 horas y 40 minutos
+                - text: para que disfrutes esta receta. ¿Cómo se calcula?
+            - list [ref=e226]:
+              - listitem [ref=e227]:
+                - link "Enviar por WhatsApp" [ref=e228] [cursor=pointer]:
+                  - /url: whatsapp://send/?text=Arroz+con+pollo+a+la+chorrera.+Receta+al+estilo+cubano https%3A%2F%2Fwww.abc.es%2Frecetasderechupete%2Farroz-con-pollo-a-la-chorrera-receta-al-estilo-cubano%2F76002%2F
+                  - img "Icono WhatsApp" [ref=e229]
+              - listitem [ref=e230]:
+                - link "Compartir en Facebook" [ref=e231] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.abc.es%2Frecetasderechupete%2Farroz-con-pollo-a-la-chorrera-receta-al-estilo-cubano%2F76002%2F
+                  - img "Icono Facebook" [ref=e232]
+              - listitem [ref=e233]:
+                - link "Compartir en Twitter" [ref=e234] [cursor=pointer]:
+                  - /url: https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.abc.es%2Frecetasderechupete%2Farroz-con-pollo-a-la-chorrera-receta-al-estilo-cubano%2F76002%2F
+                  - img "Icono Twitter" [ref=e235]
+              - listitem [ref=e236]:
+                - link "Pin en Pinterest" [ref=e237] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.abc.es%2Frecetasderechupete%2Farroz-con-pollo-a-la-chorrera-receta-al-estilo-cubano%2F76002%2F&media=https%3A%2F%2Fwww.recetasderechupete.com%2Fwp-content%2Fuploads%2F2024%2F04%2FArroz-a-la-chorrera-portada.jpg&description=Arroz+con+pollo+a+la+chorrera.+Receta+al+estilo+cubano
+                  - img "Icono Pinterest" [ref=e238]
+            - paragraph
+            - generic [ref=e240]:
+              - generic "La odio" [ref=e241] [cursor=pointer]: 
+              - generic "No me gusta" [ref=e242] [cursor=pointer]: 
+              - generic "Ni fu ni fa" [ref=e243] [cursor=pointer]: 
+              - generic "Qué buena pinta" [ref=e244] [cursor=pointer]: 
+              - generic "¡De rechupete!" [ref=e245] [cursor=pointer]: 
+              - generic [ref=e246]:
+                - generic [ref=e247]: 4/5
+                - generic [ref=e248]: 4 votos
+            - paragraph
+            - separator [ref=e249]
+            - paragraph [ref=e250]:
+              - text: "Categorías:"
+              - link "Recetas con arroz blanco" [ref=e251] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/arroces/recetas-con-arroz-blanco/
+              - link "Recetas con arroz meloso" [ref=e252] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/arroces/recetas-con-arroz-meloso/
+              - link "Recetas de arroz" [ref=e253] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/arroces/
+              - link "Recetas de arroz con carne" [ref=e254] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/arroces/arroz-con-carne/
+              - link "Recetas de arroz con pollo" [ref=e255] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/arroces/recetas-de-arroz-con-pollo/
+              - link "Recetas de verano" [ref=e256] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas-tematicas/recetas-de-verano/
+              - link "Recetas fáciles con arroz" [ref=e257] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/arroces/recetas-faciles-con-arroz/
+            - paragraph [ref=e258]:
+              - text: "Etiquetas:"
+              - link "arroz" [ref=e259] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/arroz/
+              - link "arroz basmati" [ref=e260] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/arroz-basmati/
+              - link "azafrán" [ref=e261] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/azafran/
+              - link "cerveza" [ref=e262] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/cerveza/
+              - link "cocina cubana" [ref=e263] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/cocina-cubana/
+              - link "comino" [ref=e264] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/comino/
+              - link "guisantes" [ref=e265] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/guisantes/
+              - link "laurel" [ref=e266] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/laurel/
+              - link "muslos de pollo" [ref=e267] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/muslos-de-pollo/
+              - link "pimentón" [ref=e268] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/pimenton/
+              - link "pimiento rojo" [ref=e269] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/pimiento-rojo/
+              - link "pollo" [ref=e270] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/pollo/
+              - link "salsa de tomate frito" [ref=e271] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta/tomate-frito/
+            - generic [ref=e272]:
+              - heading "También te encantará..." [level=3]
+              - generic [ref=e273]:
+                - generic [ref=e274]:
+                  - link "Arroz con pollo al estilo cubano" [ref=e276] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/arroz-con-pollo-cubano/33400/
+                    - img "Arroz con pollo al estilo cubano" [ref=e277]
+                  - link "Arroz con pollo al estilo cubano" [ref=e279] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/arroz-con-pollo-cubano/33400/
+                - generic [ref=e280]:
+                  - link "Arroz mexicano con pollo" [ref=e282] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/arroz-mexicano-con-pollo/56664/
+                    - img "Arroz mexicano con pollo" [ref=e283]
+                  - link "Arroz mexicano con pollo" [ref=e285] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/arroz-mexicano-con-pollo/56664/
+                - generic [ref=e286]:
+                  - link "Pollo al limón con arroz blanco. Receta china fácil" [ref=e288] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/pollo-al-limon/18726/
+                    - img "Pollo al limón con arroz blanco. Receta china fácil" [ref=e289]
+                  - link "Pollo al limón con arroz blanco. Receta china fácil" [ref=e291] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/pollo-al-limon/18726/
+                - generic [ref=e292]:
+                  - link "Arroz con pollo y conejo en paella" [ref=e294] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/arroz-con-pollo-y-conejo/14752/
+                    - img "Arroz con pollo y conejo en paella" [ref=e295]
+                  - link "Arroz con pollo y conejo en paella" [ref=e297] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/arroz-con-pollo-y-conejo/14752/
+            - separator [ref=e298]
+        - generic [ref=e299]:
+          - generic:
+            - heading "Sobre el autor" [level=3] [ref=e301]
+            - generic [ref=e304]:
+              - link "Alfonso López Alonso" [ref=e305] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/acercaderecetasderechupete/
+                - heading "Alfonso López Alonso" [level=4] [ref=e306]
+              - generic [ref=e307]: Empecé Recetas de rechupete en 2009. En estos años he escrito recetas y libros, grabado vídeos, he dado cursos presenciales y clases en escuelas de hostelería. Y cocinar para mi familia y amigos sigue siendo mi gran pasión. En esta web quiero compartir contigo toda mi experiencia, para que disfrutes de la cocina tanto como yo y todos tus platos salgan de rechupete.
+        - generic [ref=e308]:
+          - 'img "Cuéntame qué tal te ha salido la receta, anécdotas, trucos o preguntas. Leo todos los comentarios y respondo siempre a las dudas. Firmado: Alfonso." [ref=e310]'
+          - generic [ref=e311]:
+            - heading "Deja un comentario" [level=3] [ref=e312]: Deja un comentario
+            - generic [ref=e313]:
+              - paragraph [ref=e314]:
+                - text: Tu dirección de correo electrónico no será publicada.
+                - generic [ref=e315]: Los campos obligatorios están marcados con *
+              - group [ref=e317]:
+                - generic [ref=e318]:
+                  - generic [ref=e319]: Escribe aquí...
+                  - textbox "Escribe aquí..." [ref=e320]
+              - generic [ref=e321]:
+                - paragraph [ref=e322]:
+                  - generic [ref=e323]: Nombre*
+                  - textbox "Nombre*" [ref=e324]
+                - paragraph [ref=e325]:
+                  - generic [ref=e326]: Correo electrónico*
+                  - textbox "Correo electrónico*" [ref=e327]
+                - paragraph [ref=e328]:
+                  - button "Publicar comentario »" [ref=e329] [cursor=pointer]
+            - paragraph [ref=e330]:
+              - text: Este sitio usa Akismet para reducir el spam.
+              - link "Aprende cómo se procesan los datos de tus comentarios." [ref=e331] [cursor=pointer]:
+                - /url: https://akismet.com/privacy/
+      - generic [ref=e333]:
+        - complementary [ref=e335]:
+          - heading "Nuevo" [level=2] [ref=e336]
+          - list [ref=e338]:
+            - listitem [ref=e339]:
+              - link "Bombay No. 2, un cóctel clásico con brandy, vermut y un punto anisado que pide beberse despacio" [ref=e341] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/bombay-no-2-un-coctel-clasico-con-brandy-vermut-y-un-punto-anisado-que-pide-beberse-despacio/165898/
+                - img "Bombay No. , un cóctel clásico con brandy, vermut y un punto anisado que pide beberse despacio" [ref=e342]
+              - link "Bombay No. 2, un cóctel clásico con brandy, vermut y un punto anisado que pide beberse despacio" [ref=e343] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/bombay-no-2-un-coctel-clasico-con-brandy-vermut-y-un-punto-anisado-que-pide-beberse-despacio/165898/
+            - listitem [ref=e344]:
+              - link "Qué es nacarar el arroz y por qué cambia tanto el resultado" [ref=e346] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/que-es-nacarar-el-arroz-y-por-que-cambia-tanto-el-resultado/166029/
+                - img "Qué es nacarar el arroz y por qué cambia tanto el resultado" [ref=e347]
+              - link "Qué es nacarar el arroz y por qué cambia tanto el resultado" [ref=e348] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/que-es-nacarar-el-arroz-y-por-que-cambia-tanto-el-resultado/166029/
+            - listitem [ref=e349]:
+              - link "Coulant de turrón de Xixona" [ref=e351] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-coulant-de-turron-de-xixona/1061/
+                - img "Coulant de turrón de Xixona" [ref=e352]
+              - link "Coulant de turrón de Xixona" [ref=e353] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-coulant-de-turron-de-xixona/1061/
+            - listitem [ref=e354]:
+              - link "¿Cada cuánto hay que cambiar las tablas de cortar? Claves de higiene y seguridad en la cocina" [ref=e356] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/cada-cuanto-hay-que-cambiar-las-tablas-de-cortar-claves-de-higiene-y-seguridad-en-la-cocina/165774/
+                - img "¿Cada cuánto hay que cambiar las tablas de cortar? Claves de higiene y seguridad en la cocina" [ref=e357]
+              - link "¿Cada cuánto hay que cambiar las tablas de cortar? Claves de higiene y seguridad en la cocina" [ref=e358] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/cada-cuanto-hay-que-cambiar-las-tablas-de-cortar-claves-de-higiene-y-seguridad-en-la-cocina/165774/
+            - listitem [ref=e359]:
+              - 'link "Ashwagandha o ginseng indio: qué es, cómo tomarla y qué papel tiene en la alimentación actual" [ref=e361] [cursor=pointer]':
+                - /url: https://www.abc.es/recetasderechupete/ashwagandha-o-ginseng-indio-que-es-como-tomarla-y-que-papel-tiene-en-la-alimentacion-actual/165767/
+                - 'img "Ashwagandha o ginseng indio: qué es, cómo tomarla y qué papel tiene en la alimentación actual" [ref=e362]'
+              - 'link "Ashwagandha o ginseng indio: qué es, cómo tomarla y qué papel tiene en la alimentación actual" [ref=e363] [cursor=pointer]':
+                - /url: https://www.abc.es/recetasderechupete/ashwagandha-o-ginseng-indio-que-es-como-tomarla-y-que-papel-tiene-en-la-alimentacion-actual/165767/
+            - listitem [ref=e364]:
+              - link "Patatas mayordomo. Receta perfecta como guarnición" [ref=e366] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/patatas-mayordomo/18963/
+                - img "Patatas mayordomo. Receta perfecta como guarnición" [ref=e367]
+              - link "Patatas mayordomo. Receta perfecta como guarnición" [ref=e368] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/patatas-mayordomo/18963/
+        - complementary [ref=e371]:
+          - generic [ref=e372]:
+            - heading "Recetas que siempre salen" [level=2] [ref=e373]
+            - list [ref=e374]:
+              - listitem [ref=e375]: ✔ Recibe las nuevas recetas cómodamente en tu correo cada miércoles
+              - listitem [ref=e376]: ✔ Cocinadas de verdad, escritas por y para personas
+              - listitem [ref=e377]: ✔ Únete a +14.000 suscriptores
+            - paragraph [ref=e378]: ¡Cocina platos de rechupete con menos estrés y más disfrute!
+            - link "Suscríbete al newsletter" [ref=e381] [cursor=pointer]:
+              - /url: https://www.abc.es/recetasderechupete/suscribete-a-recetas-de-rechupete/
+        - complementary [ref=e382]:
+          - link "KitchenAid" [ref=e383] [cursor=pointer]:
+            - /url: https://claudiaandjulia.com/collections/kitchenaid
+            - img "KitchenAid" [ref=e384]
+        - complementary [ref=e385]:
+          - link "Arroz SOS" [ref=e386] [cursor=pointer]:
+            - /url: https://www.arrozsos.es/?utm_source=derechupete&utm_medium=display&utm_campaign=anuncio&utm_content=branding
+            - img "Arroz SOS" [ref=e387]
+        - complementary [ref=e390]:
+          - link "Picota y cereza del Jerte" [ref=e391] [cursor=pointer]:
+            - /url: https://cerezadeljerte.org/la-cereza-del-jerte/?utm_source=Banner&utm_medium=Web&utm_campaign=Campa%C3%B1a+2025&utm_id=De+Rechupete
+            - img "Picota y cereza del Jerte" [ref=e392]
+        - complementary [ref=e393]:
+          - link "Conoce el sabor puro de la Vera" [ref=e394] [cursor=pointer]:
+            - /url: https://pimentonvera-origen.com/fabricantes-de-pimenton/?utm_source=Banner&utm_medium=Web&utm_campaign=Campa%C3%B1a+2025&utm_id=De+Rechupete
+            - img "Conoce el sabor puro de la Vera" [ref=e395]
+        - complementary [ref=e396]:
+          - link "Fissler, utensilios de cocina de alta calidad" [ref=e397] [cursor=pointer]:
+            - /url: https://fissler-shop.es/?utm_source=Banner&utm_medium=Web&utm_campaign=Rechupete&utm_id=De+Rechupete
+            - img "Fissler, utensilios de cocina de alta calidad" [ref=e398]
+    - generic [ref=e402]:
+      - link "Recetas de Rechupete" [ref=e404] [cursor=pointer]:
+        - /url: https://www.abc.es/recetasderechupete/
+      - text: »
+      - link "Recetario de cocina" [ref=e406] [cursor=pointer]:
+        - /url: https://www.abc.es/recetasderechupete/todas/recetas/
+      - text: »
+      - link "Recetas de arroz" [ref=e408] [cursor=pointer]:
+        - /url: https://www.abc.es/recetasderechupete/todas/recetas/arroces/
+      - text: » Arroz con pollo a la chorrera. Receta al estilo cubano
+    - contentinfo [ref=e409]:
+      - generic [ref=e411]:
+        - region [ref=e413]:
+          - img "De rechupete - Recetas que salen" [ref=e415]
+        - generic [ref=e419]:
+          - link "YouTube" [ref=e420] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/recetasderechupete?sub_confirmation=1
+            - img [ref=e422]
+            - generic [ref=e424]: YouTube
+          - link "Instagram" [ref=e425] [cursor=pointer]:
+            - /url: https://instagram.com/derechupete/
+            - img [ref=e427]
+            - generic [ref=e429]: Instagram
+          - link "Pinterest" [ref=e430] [cursor=pointer]:
+            - /url: https://www.pinterest.es/derechupete/
+            - img [ref=e432]
+            - generic [ref=e434]: Pinterest
+          - link "Facebook" [ref=e435] [cursor=pointer]:
+            - /url: https://www.facebook.com/recetasderechupetefanpage
+            - img [ref=e437]
+            - generic [ref=e439]: Facebook
+          - link "Twitter" [ref=e440] [cursor=pointer]:
+            - /url: https://twitter.com/derechupete
+            - img [ref=e442]
+            - generic [ref=e444]: Twitter
+          - link "TikTok" [ref=e445] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@comerderechupete
+            - img [ref=e447]
+            - generic [ref=e449]: TikTok
+      - generic [ref=e452]:
+        - region "Footer Widget 1" [ref=e454]:
+          - generic [ref=e455]:
+            - heading "Las mejores recetas" [level=2] [ref=e456]
+            - navigation "Las mejores recetas" [ref=e457]:
+              - list [ref=e458]:
+                - listitem [ref=e459]:
+                  - link "Cordero al horno o asado" [ref=e460] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-preparar-cordero-al-horno-o-asado-receta-facil/8629/
+                - listitem [ref=e461]:
+                  - link "Lasaña de carne" [ref=e462] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-lasana-de-carne/223/
+                - listitem [ref=e463]:
+                  - link "Albóndigas en salsa" [ref=e464] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-albondigas-en-salsa/15542/
+                - listitem [ref=e465]:
+                  - link "Cómo hacer churros" [ref=e466] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-preparar-churros-caseros-receta-paso-a-paso/9752/
+                - listitem [ref=e467]:
+                  - link "Estofado de ternera" [ref=e468] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-abuela-guiso-de-ternera-con-patatas/1336/
+                - listitem [ref=e469]:
+                  - link "Guacamole" [ref=e470] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-hacer-guacamole-mexicano-receta-facil-y-rapida/9261/
+                - listitem [ref=e471]:
+                  - link "Masa de pizza" [ref=e472] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-preparar-receta-masa-pizza-italiana/1728/
+                - listitem [ref=e473]:
+                  - link "Pollo al curry" [ref=e474] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/pollo-al-curry-con-arroz-basmati-receta-paso-a-paso/8199/
+                - listitem [ref=e475]:
+                  - link "Fideuá de marisco" [ref=e476] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/fideua-con-marisco/13578/
+                - listitem [ref=e477]:
+                  - link "Tarta de manzana con hojaldre" [ref=e478] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-tarta-de-manzana-facil/434/
+        - region "Footer Widget 2" [ref=e480]:
+          - generic [ref=e481]:
+            - heading "Recetas baratas" [level=2] [ref=e482]
+            - navigation "Recetas baratas" [ref=e483]:
+              - list [ref=e484]:
+                - listitem [ref=e485]:
+                  - link "Lentejas" [ref=e486] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-lentejas-caseras-con-chorizo/939/
+                - listitem [ref=e487]:
+                  - link "Pollo asado al horno" [ref=e488] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/pollo-asado-facil-al-horno-con-patatas-panaderas/9535/
+                - listitem [ref=e489]:
+                  - link "Patatas guisadas" [ref=e490] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-hacer-patatas-viudas-receta-facil-barata-y-deliciosa-con-patatas/39029/
+                - listitem [ref=e491]:
+                  - link "Tortilla de patatas" [ref=e492] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/tortilla-de-patatas-espanola-receta-paso-a-paso/5182/
+                - listitem [ref=e493]:
+                  - link "Empanada de atún" [ref=e494] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/empanada-de-bonito-en-conserva/23074/
+                - listitem [ref=e495]:
+                  - link "Arroz con pollo" [ref=e496] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-arroz-con-pollo-y-verduras/581/
+                - listitem [ref=e497]:
+                  - link "Bizcocho de chocolate" [ref=e498] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/el-mejor-bizcocho-de-chocolate-del-mundo/12378/
+                - listitem [ref=e499]:
+                  - link "Puré de patata" [ref=e500] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-preparar-el-mejor-pure-de-patata/14328/
+                - listitem [ref=e501]:
+                  - link "Hummus o crema de garbanzos" [ref=e502] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-humus-y-tahini-pure-de-garbanzos/3864/
+                - listitem [ref=e503]:
+                  - link "Brownie de chocolate" [ref=e504] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-brownies-de-chocolate-con-nueces-forma-clasica-y-facil/1220/
+        - region "Footer Widget 3" [ref=e506]:
+          - generic [ref=e507]:
+            - heading "De temporada" [level=2] [ref=e508]
+            - navigation "De temporada" [ref=e509]:
+              - list [ref=e510]:
+                - listitem [ref=e511]:
+                  - link "Berenjenas rellenas" [ref=e512] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/berenjenas-rellenas-de-atun-con-queso-gratinado-al-horno/42592/
+                - listitem [ref=e513]:
+                  - link "Pollo al ajillo" [ref=e514] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/pollo-al-ajillo-receta-casera-y-facil/9272/
+                - listitem [ref=e515]:
+                  - link "Lentejas con verduras" [ref=e516] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-lentejas-light-al-estilo-tradicional/938/
+                - listitem [ref=e517]:
+                  - link "Arroz con pollo" [ref=e518] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-arroz-con-pollo-y-verduras/581/
+                - listitem [ref=e519]:
+                  - link "Cocido madrileño" [ref=e520] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/cocido-madrileno/6531/
+                - listitem [ref=e521]:
+                  - link "Conejo al ajillo" [ref=e522] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/conejo-guisado-al-ajillo/9226/
+                - listitem [ref=e523]:
+                  - link "Quiche Lorraine" [ref=e524] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/quiche-lorraine-receta-de-cocina-francesa/8634/
+                - listitem [ref=e525]:
+                  - link "Tortitas o pancakes" [ref=e526] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-tortitas/11/
+                - listitem [ref=e527]:
+                  - link "Tarta de queso" [ref=e528] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/tarta-de-queso-al-horno/11579/
+                - listitem [ref=e529]:
+                  - link "Tiramisú" [ref=e530] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/tiramisu-facil-receta-tradicional-italiana/2262/
+        - region "Footer Widget 4" [ref=e532]:
+          - generic [ref=e533]:
+            - heading "Colecciones de recetas" [level=2] [ref=e534]
+            - navigation "Colecciones de recetas" [ref=e535]:
+              - list [ref=e536]:
+                - listitem [ref=e537]:
+                  - link "Recetas con berenjena" [ref=e538] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/recetas-con-berenjena-12-platos-sabrosos-para-disfrutarla/74229/
+                - listitem [ref=e539]:
+                  - link "Galletas" [ref=e540] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/16-recetas-de-galletas-que-puedes-hacer-en-casa/77139/
+                - listitem [ref=e541]:
+                  - link "Meriendas saludables" [ref=e542] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/20-meriendas-saludables-y-faciles-para-todas-las-edades/73756/
+                - listitem [ref=e543]:
+                  - link "Recetas saludables" [ref=e544] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/recetas-sencillas-y-ligeras-para-volver-a-la-normalidad/52729/
+                - listitem [ref=e545]:
+                  - link "Recetas para freidora de aire" [ref=e546] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/recetas-practicas-freidora-aire/110516/
+                - listitem [ref=e547]:
+                  - link "Cenas saludables" [ref=e548] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/cenas-rapidas-y-saludables-consejos/25562/
+                - listitem [ref=e549]:
+                  - link "Recetas de bizcochos" [ref=e550] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/todas/recetas/postres-dulces/bizcochos/
+                - listitem [ref=e551]:
+                  - link "Menú semanal" [ref=e552] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/menu-semanal-economico-con-recetas-baratas-y-saludables/47186/
+                - listitem [ref=e553]:
+                  - link "Cenas rápidas" [ref=e554] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/cenas-ligeras-sabrosas-y-muy-faciles-de-preparar-recetas-para-triunfar-en-casa/39874/
+                - listitem [ref=e555]:
+                  - link "Recetas para niños y bebés" [ref=e556] [cursor=pointer]:
+                    - /url: https://www.recetasparamibebe.com/
+      - generic [ref=e562]:
+        - paragraph [ref=e563]:
+          - text: Copyright © 2026 De Rechupete ·
+          - link "Publicidad y colaboraciones" [ref=e564] [cursor=pointer]:
+            - /url: https://www.abc.es/recetasderechupete/sobre-recetas-de-rechupete/
+          - text: ·
+          - link "Términos de uso" [ref=e565] [cursor=pointer]:
+            - /url: https://www.abc.es/recetasderechupete/terminos-de-uso/
+          - text: ·
+          - link "Política de privacidad" [ref=e566] [cursor=pointer]:
+            - /url: https://www.abc.es/recetasderechupete/politica-de-cookies/
+          - text: ·
+          - link "Política de cookies" [ref=e567] [cursor=pointer]:
+            - /url: https://www.abc.es/recetasderechupete/politica-de-cookies-2/
+        - paragraph [ref=e568]:
+          - text: Diseñado por
+          - link "PIENSA en PIXELS" [ref=e569] [cursor=pointer]:
+            - /url: https://piensaenpixels.com/
+          - text: ·
+          - link "Cloud hosting con StackScale" [ref=e570] [cursor=pointer]:
+            - /url: https://www.stackscale.com/es/
+        - paragraph [ref=e571]:
+          - img [ref=e572]

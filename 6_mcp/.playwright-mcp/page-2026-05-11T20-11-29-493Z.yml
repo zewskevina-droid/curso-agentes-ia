@@ -1,0 +1,467 @@
+- generic [active] [ref=e1]:
+  - link "Ir al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e14]:
+          - link "Logo ABC" [ref=e15] [cursor=pointer]:
+            - /url: https://www.abc.es/
+            - img "Logo ABC" [ref=e16]
+        - generic [ref=e20]:
+          - link "Recetas de rechupete" [ref=e25] [cursor=pointer]:
+            - /url: https://www.abc.es/recetasderechupete/
+            - img "Recetas de rechupete" [ref=e26]
+          - navigation "Navegación del sitio principal" [ref=e32]:
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - link "Todas las recetas Conmutador del menú" [ref=e36] [cursor=pointer]:
+                  - /url: https://www.abc.es/recetasderechupete/todas-las-categorias-de-recetas/
+                  - generic [ref=e37]: Todas las recetas
+                  - application "Conmutador del menú" [ref=e38]:
+                    - img [ref=e40]
+          - button "Search icon link" [ref=e46] [cursor=pointer]:
+            - img [ref=e49]
+        - navigation "Navegación del sitio secundaria" [ref=e59]:
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - link "Salmorejo" [ref=e63] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/salmorejo-cordobes-receta-paso-a-paso/3753/
+                - generic [ref=e64]: Salmorejo
+            - listitem [ref=e65]:
+              - link "Gazpacho" [ref=e66] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/gazpacho-andaluz-una-receta-con-la-alegria-de-la-huerta-el-tomate/5701/
+                - generic [ref=e67]: Gazpacho
+            - listitem [ref=e68]:
+              - link "Habas con jamón" [ref=e69] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/habas-con-jamon-receta-sencilla-y-completa-paso-a-paso/89843/
+                - generic [ref=e70]: Habas con jamón
+            - listitem [ref=e71]:
+              - link "Arroz con pollo" [ref=e72] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-arroz-con-pollo-y-verduras/581/
+                - generic [ref=e73]: Arroz con pollo
+            - listitem [ref=e74]:
+              - link "Recetas saludables" [ref=e75] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/recetas-sencillas-y-ligeras-para-volver-a-la-normalidad/52729/
+                - generic [ref=e76]: Recetas saludables
+            - listitem [ref=e77]:
+              - link "Bizcocho de yogur" [ref=e78] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/bizcocho-casero-de-yogur/10463/
+                - generic [ref=e79]: Bizcocho de yogur
+            - listitem [ref=e80]:
+              - link "Tortitas" [ref=e81] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-tortitas/11/
+                - generic [ref=e82]: Tortitas
+            - listitem [ref=e83]:
+              - link "Galletas" [ref=e84] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/16-recetas-de-galletas-que-puedes-hacer-en-casa/77139/
+                - generic [ref=e85]: Galletas
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - heading "La página que buscas no existe" [level=1] [ref=e92]
+        - paragraph [ref=e93]:
+          - text: "Lo sentimos, el enlace que te ha traído aquí ya no sirve. Busca lo que necesitas, prueba una de las recetas que te sugerimos o vuelve al inicio:"
+          - link "Recetas de rechupete" [ref=e94] [cursor=pointer]:
+            - /url: https://www.abc.es/recetasderechupete/
+          - text: .
+        - search [ref=e96]:
+          - generic [ref=e97]: Buscar
+          - generic [ref=e98]:
+            - searchbox "Buscar" [ref=e99]
+            - button "Buscar" [ref=e100] [cursor=pointer]
+      - generic [ref=e101]:
+        - separator [ref=e102]
+        - heading "Nuestras mejores recetas" [level=2] [ref=e103]
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - figure [ref=e106]:
+              - link "Tarta de tres chocolates" [ref=e107] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/postres-dulces/
+                - img "Tarta de tres chocolates" [ref=e108]
+            - heading "Postres" [level=3] [ref=e109]:
+              - link "Postres" [ref=e110] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/postres-dulces/
+            - paragraph [ref=e111]:
+              - link "Churros caseros" [ref=e112] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/como-preparar-churros-caseros-receta-paso-a-paso/9752/
+              - link "Tortitas" [ref=e113] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-tortitas/11/
+          - generic [ref=e114]:
+            - figure [ref=e115]:
+              - link "Arroz caldoso con pollo" [ref=e116] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/arroces/
+                - img "Arroz caldoso con pollo" [ref=e117]
+            - heading "Arroz" [level=3] [ref=e118]:
+              - link "Arroz" [ref=e119] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/arroces/
+            - paragraph [ref=e120]:
+              - link "Arroz blanco" [ref=e121] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/como-hacer-un-arroz-blanco-perfecto/25619/
+              - link "Paella de pollo" [ref=e122] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/paella-de-pollo-receta-de-arroz-facil-y-barata/31247/
+          - generic [ref=e123]:
+            - figure [ref=e124]:
+              - link "Espaguetis con marisco" [ref=e125] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/pasta-recetas/
+                - img "Espaguetis con marisco" [ref=e126]
+            - heading "Pasta" [level=3] [ref=e127]:
+              - link "Pasta" [ref=e128] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/pasta-recetas/
+            - paragraph [ref=e129]:
+              - link "Lasaña de carne" [ref=e130] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-lasana-de-carne/223/
+              - link "Macarrones con atún" [ref=e131] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/macarrones-con-atun-y-tomate/33440/
+          - generic [ref=e132]:
+            - figure [ref=e133]:
+              - link "Pollo asado al limón" [ref=e134] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/carnes-aves/recetas-con-pollo/
+                - img "Pollo asado al limón" [ref=e135]
+            - heading "Pollo" [level=3] [ref=e136]:
+              - link "Pollo" [ref=e137] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/carnes-aves/recetas-con-pollo/
+            - paragraph [ref=e138]:
+              - link "Pollo al horno" [ref=e139] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/pollo-asado-facil-al-horno-con-patatas-panaderas/9535/
+              - link "Pollo al ajillo" [ref=e140] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/pollo-al-ajillo-receta-casera-y-facil/9272/
+          - generic [ref=e141]:
+            - figure [ref=e142]:
+              - link "Carne asada al horno" [ref=e143] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/carnes-aves/
+                - img "Carne asada al horno" [ref=e144]
+            - heading "Carne" [level=3] [ref=e145]:
+              - link "Carne" [ref=e146] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/carnes-aves/
+            - paragraph [ref=e147]:
+              - link "Albóndigas en salsa" [ref=e148] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-albondigas-en-salsa/15542/
+              - link "Cordero al horno" [ref=e149] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/como-preparar-cordero-al-horno-o-asado-receta-facil/8629/
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - figure [ref=e152]:
+              - link "Lubina al horno" [ref=e153] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/carnes-aves/
+                - img "Lubina al horno" [ref=e154]
+            - heading "Pescado" [level=3] [ref=e155]:
+              - link "Pescado" [ref=e156] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/pescados-mariscos/
+            - paragraph [ref=e157]:
+              - link "Sopa de pescado" [ref=e158] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/sopa-de-pescado-a-lo-pobre/22773/
+              - link "Bacalao a la portuguesa" [ref=e159] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/bacalao-a-la-portuguesa/12627/
+          - generic [ref=e160]:
+            - figure [ref=e161]:
+              - img "Verduras asadas" [ref=e162]
+            - heading "Verduras" [level=3] [ref=e163]:
+              - link "Verduras" [ref=e164] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/ensaladas-verduras/
+            - paragraph [ref=e165]:
+              - link "Guacamole fácil" [ref=e166] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/como-hacer-guacamole-mexicano-receta-facil-y-rapida/9261/
+              - link "Berenjenas rellenas de atún" [ref=e167] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/berenjenas-rellenas-de-atun-con-queso-gratinado-al-horno/42592/
+          - generic [ref=e168]:
+            - figure [ref=e169]:
+              - link "ensalada de aguacate" [ref=e170] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/recetas-de-ensaladas/
+                - img "ensalada de aguacate" [ref=e171]
+            - heading "Ensaladas" [level=3] [ref=e172]:
+              - link "Ensaladas" [ref=e173] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/recetas-de-ensaladas/
+            - paragraph [ref=e174]:
+              - link "Ensalada de pasta" [ref=e175] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/ensalada-de-pasta/10229/
+              - link "Ensalada César" [ref=e176] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-ensalada-cesar/681/
+          - generic [ref=e177]:
+            - figure [ref=e178]:
+              - link "Garbanzos con verduras" [ref=e179] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/legumbres-sopas-guisos/
+                - img "Garbanzos con verduras" [ref=e180]
+            - heading "Legumbres" [level=3] [ref=e181]:
+              - link "Legumbres" [ref=e182] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/legumbres-sopas-guisos/
+            - paragraph [ref=e183]:
+              - link "Lentejas con chorizo" [ref=e184] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-lentejas-caseras-con-chorizo/939/
+              - link "Fabada" [ref=e185] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-de-fabada-o-fabes-asturianas/982/
+          - generic [ref=e186]:
+            - figure [ref=e187]:
+              - link "Sopa de pescado y marisco" [ref=e188] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/recetas-de-sopas-y-caldos/
+                - img "Sopa de pescado y marisco" [ref=e189]
+            - heading "Sopas y cremas" [level=3] [ref=e190]:
+              - link "Sopas y cremas" [ref=e191] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/recetas-de-sopas-y-caldos/
+            - paragraph [ref=e192]:
+              - link "Sopas de ajo" [ref=e193] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/receta-tradicional-de-sopas-de-ajo-o-sopa-castellana/2431/
+              - link "Crema de calabacín" [ref=e194] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/crema-de-calabacin/12152/
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - figure [ref=e197]:
+              - link "Tortilla de patatas y calabacin" [ref=e198] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/recetas-de-huevos-y-tortillas/
+                - img "Tortilla de patatas y calabacin" [ref=e199]
+            - heading "Huevos y tortillas" [level=3] [ref=e200]:
+              - link "Huevos y tortillas" [ref=e201] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/recetas-de-huevos-y-tortillas/
+            - paragraph [ref=e202]:
+              - link "Cocer huevos duros" [ref=e203] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/como-cocer-huevos-duros/12205/
+              - link "Tortilla de patatas" [ref=e204] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/tortilla-de-patatas-espanola-receta-paso-a-paso/5182/
+          - generic [ref=e205]:
+            - figure [ref=e206]:
+              - img "Pan baguette casero" [ref=e207]
+            - heading "Pan y masas" [level=3] [ref=e208]:
+              - link "Pan y masas" [ref=e209] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/masas-rebozados/
+            - paragraph [ref=e210]:
+              - link "Masa de pizza" [ref=e211] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/como-preparar-receta-masa-pizza-italiana/1728/
+              - link "Pan casero fácil" [ref=e212] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/como-hacer-pan-facil-especial-novatos-panarras/20662/
+          - generic [ref=e213]:
+            - figure [ref=e214]:
+              - link "Salsa tarator libanesa" [ref=e215] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/patatas-salsas-guarniciones/
+                - img "Salsa tarator libanesa" [ref=e216]
+            - heading "Salsas y guarniciones" [level=3] [ref=e217]:
+              - link "Salsas y guarniciones" [ref=e218] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/patatas-salsas-guarniciones/
+            - paragraph [ref=e219]:
+              - link "Patatas asadas al horno" [ref=e220] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/patatas-asadas-o-al-horno-con-especias/11870/
+              - link "Salsa bechamel" [ref=e221] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/salsa-bechamel-todos-los-secretos-para-que-salga-bien/183/
+          - generic [ref=e222]:
+            - figure [ref=e223]:
+              - link "Margarita" [ref=e224] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/bebidas-cocteles-licores/
+                - img "Margarita" [ref=e225]
+            - heading "Bebidas y cócteles" [level=3] [ref=e226]:
+              - link "Bebidas y cócteles" [ref=e227] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/bebidas-cocteles-licores/
+            - paragraph [ref=e228]:
+              - link "Mojito" [ref=e229] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/como-hacer-un-mojito-cubano-perfecto/16486/
+              - link "Gin tonic" [ref=e230] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/el-gin-tonic-perfecto-existe/31164/
+          - generic [ref=e231]:
+            - figure [ref=e232]:
+              - link "Croquetas de cocido" [ref=e233] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/tapas-aperitivos-pinchos/
+                - img "Croquetas de cocido" [ref=e234]
+            - heading "Tapas y aperitivos" [level=3] [ref=e235]:
+              - link "Tapas y aperitivos" [ref=e236] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/todas/recetas/tapas-aperitivos-pinchos/
+            - paragraph [ref=e237]:
+              - link "Guacamole" [ref=e238] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/como-hacer-guacamole-mexicano-receta-facil-y-rapida/9261/
+              - link "Salmorejo" [ref=e239] [cursor=pointer]:
+                - /url: https://www.abc.es/recetasderechupete/salmorejo-cordobes-receta-paso-a-paso/3753/
+        - link "Ver todas las categorías de recetas" [ref=e242] [cursor=pointer]:
+          - /url: https://www.abc.es/recetasderechupete/todas-las-categorias-de-recetas/
+    - generic [ref=e246]:
+      - link "Recetas de Rechupete" [ref=e248] [cursor=pointer]:
+        - /url: https://www.abc.es/recetasderechupete/
+      - text: » Página no encontrada
+    - contentinfo [ref=e249]:
+      - generic [ref=e252]:
+        - region [ref=e254]:
+          - img "De rechupete - Recetas que salen" [ref=e256]
+        - generic [ref=e260]:
+          - link "YouTube" [ref=e261] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/recetasderechupete?sub_confirmation=1
+            - img [ref=e263]
+            - generic [ref=e265]: YouTube
+          - link "Instagram" [ref=e266] [cursor=pointer]:
+            - /url: https://instagram.com/derechupete/
+            - img [ref=e268]
+            - generic [ref=e270]: Instagram
+          - link "Pinterest" [ref=e271] [cursor=pointer]:
+            - /url: https://www.pinterest.es/derechupete/
+            - img [ref=e273]
+            - generic [ref=e275]: Pinterest
+          - link "Facebook" [ref=e276] [cursor=pointer]:
+            - /url: https://www.facebook.com/recetasderechupetefanpage
+            - img [ref=e278]
+            - generic [ref=e280]: Facebook
+          - link "Twitter" [ref=e281] [cursor=pointer]:
+            - /url: https://twitter.com/derechupete
+            - img [ref=e283]
+            - generic [ref=e285]: Twitter
+          - link "TikTok" [ref=e286] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@comerderechupete
+            - img [ref=e288]
+            - generic [ref=e290]: TikTok
+      - generic [ref=e293]:
+        - region "Footer Widget 1" [ref=e295]:
+          - generic [ref=e296]:
+            - heading "Las mejores recetas" [level=2] [ref=e297]
+            - navigation "Las mejores recetas" [ref=e298]:
+              - list [ref=e299]:
+                - listitem [ref=e300]:
+                  - link "Cordero al horno o asado" [ref=e301] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-preparar-cordero-al-horno-o-asado-receta-facil/8629/
+                - listitem [ref=e302]:
+                  - link "Lasaña de carne" [ref=e303] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-lasana-de-carne/223/
+                - listitem [ref=e304]:
+                  - link "Albóndigas en salsa" [ref=e305] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-albondigas-en-salsa/15542/
+                - listitem [ref=e306]:
+                  - link "Cómo hacer churros" [ref=e307] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-preparar-churros-caseros-receta-paso-a-paso/9752/
+                - listitem [ref=e308]:
+                  - link "Estofado de ternera" [ref=e309] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-abuela-guiso-de-ternera-con-patatas/1336/
+                - listitem [ref=e310]:
+                  - link "Guacamole" [ref=e311] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-hacer-guacamole-mexicano-receta-facil-y-rapida/9261/
+                - listitem [ref=e312]:
+                  - link "Masa de pizza" [ref=e313] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-preparar-receta-masa-pizza-italiana/1728/
+                - listitem [ref=e314]:
+                  - link "Pollo al curry" [ref=e315] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/pollo-al-curry-con-arroz-basmati-receta-paso-a-paso/8199/
+                - listitem [ref=e316]:
+                  - link "Fideuá de marisco" [ref=e317] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/fideua-con-marisco/13578/
+                - listitem [ref=e318]:
+                  - link "Tarta de manzana con hojaldre" [ref=e319] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-tarta-de-manzana-facil/434/
+        - region "Footer Widget 2" [ref=e321]:
+          - generic [ref=e322]:
+            - heading "Recetas baratas" [level=2] [ref=e323]
+            - navigation "Recetas baratas" [ref=e324]:
+              - list [ref=e325]:
+                - listitem [ref=e326]:
+                  - link "Lentejas" [ref=e327] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-lentejas-caseras-con-chorizo/939/
+                - listitem [ref=e328]:
+                  - link "Pollo asado al horno" [ref=e329] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/pollo-asado-facil-al-horno-con-patatas-panaderas/9535/
+                - listitem [ref=e330]:
+                  - link "Patatas guisadas" [ref=e331] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-hacer-patatas-viudas-receta-facil-barata-y-deliciosa-con-patatas/39029/
+                - listitem [ref=e332]:
+                  - link "Tortilla de patatas" [ref=e333] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/tortilla-de-patatas-espanola-receta-paso-a-paso/5182/
+                - listitem [ref=e334]:
+                  - link "Empanada de atún" [ref=e335] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/empanada-de-bonito-en-conserva/23074/
+                - listitem [ref=e336]:
+                  - link "Arroz con pollo" [ref=e337] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-arroz-con-pollo-y-verduras/581/
+                - listitem [ref=e338]:
+                  - link "Bizcocho de chocolate" [ref=e339] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/el-mejor-bizcocho-de-chocolate-del-mundo/12378/
+                - listitem [ref=e340]:
+                  - link "Puré de patata" [ref=e341] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/como-preparar-el-mejor-pure-de-patata/14328/
+                - listitem [ref=e342]:
+                  - link "Hummus o crema de garbanzos" [ref=e343] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-humus-y-tahini-pure-de-garbanzos/3864/
+                - listitem [ref=e344]:
+                  - link "Brownie de chocolate" [ref=e345] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-brownies-de-chocolate-con-nueces-forma-clasica-y-facil/1220/
+        - region "Footer Widget 3" [ref=e347]:
+          - generic [ref=e348]:
+            - heading "De temporada" [level=2] [ref=e349]
+            - navigation "De temporada" [ref=e350]:
+              - list [ref=e351]:
+                - listitem [ref=e352]:
+                  - link "Berenjenas rellenas" [ref=e353] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/berenjenas-rellenas-de-atun-con-queso-gratinado-al-horno/42592/
+                - listitem [ref=e354]:
+                  - link "Pollo al ajillo" [ref=e355] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/pollo-al-ajillo-receta-casera-y-facil/9272/
+                - listitem [ref=e356]:
+                  - link "Lentejas con verduras" [ref=e357] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-lentejas-light-al-estilo-tradicional/938/
+                - listitem [ref=e358]:
+                  - link "Arroz con pollo" [ref=e359] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-arroz-con-pollo-y-verduras/581/
+                - listitem [ref=e360]:
+                  - link "Cocido madrileño" [ref=e361] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/cocido-madrileno/6531/
+                - listitem [ref=e362]:
+                  - link "Conejo al ajillo" [ref=e363] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/conejo-guisado-al-ajillo/9226/
+                - listitem [ref=e364]:
+                  - link "Quiche Lorraine" [ref=e365] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/quiche-lorraine-receta-de-cocina-francesa/8634/
+                - listitem [ref=e366]:
+                  - link "Tortitas o pancakes" [ref=e367] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/receta-de-tortitas/11/
+                - listitem [ref=e368]:
+                  - link "Tarta de queso" [ref=e369] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/tarta-de-queso-al-horno/11579/
+                - listitem [ref=e370]:
+                  - link "Tiramisú" [ref=e371] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/tiramisu-facil-receta-tradicional-italiana/2262/
+        - region "Footer Widget 4" [ref=e373]:
+          - generic [ref=e374]:
+            - heading "Colecciones de recetas" [level=2] [ref=e375]
+            - navigation "Colecciones de recetas" [ref=e376]:
+              - list [ref=e377]:
+                - listitem [ref=e378]:
+                  - link "Recetas con berenjena" [ref=e379] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/recetas-con-berenjena-12-platos-sabrosos-para-disfrutarla/74229/
+                - listitem [ref=e380]:
+                  - link "Galletas" [ref=e381] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/16-recetas-de-galletas-que-puedes-hacer-en-casa/77139/
+                - listitem [ref=e382]:
+                  - link "Meriendas saludables" [ref=e383] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/20-meriendas-saludables-y-faciles-para-todas-las-edades/73756/
+                - listitem [ref=e384]:
+                  - link "Recetas saludables" [ref=e385] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/recetas-sencillas-y-ligeras-para-volver-a-la-normalidad/52729/
+                - listitem [ref=e386]:
+                  - link "Recetas para freidora de aire" [ref=e387] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/recetas-practicas-freidora-aire/110516/
+                - listitem [ref=e388]:
+                  - link "Cenas saludables" [ref=e389] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/cenas-rapidas-y-saludables-consejos/25562/
+                - listitem [ref=e390]:
+                  - link "Recetas de bizcochos" [ref=e391] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/todas/recetas/postres-dulces/bizcochos/
+                - listitem [ref=e392]:
+                  - link "Menú semanal" [ref=e393] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/menu-semanal-economico-con-recetas-baratas-y-saludables/47186/
+                - listitem [ref=e394]:
+                  - link "Cenas rápidas" [ref=e395] [cursor=pointer]:
+                    - /url: https://www.abc.es/recetasderechupete/cenas-ligeras-sabrosas-y-muy-faciles-de-preparar-recetas-para-triunfar-en-casa/39874/
+                - listitem [ref=e396]:
+                  - link "Recetas para niños y bebés" [ref=e397] [cursor=pointer]:
+                    - /url: https://www.recetasparamibebe.com/
+      - generic [ref=e403]:
+        - paragraph [ref=e404]:
+          - text: Copyright © 2026 De Rechupete ·
+          - link "Publicidad y colaboraciones" [ref=e405] [cursor=pointer]:
+            - /url: https://www.abc.es/recetasderechupete/sobre-recetas-de-rechupete/
+          - text: ·
+          - link "Términos de uso" [ref=e406] [cursor=pointer]:
+            - /url: https://www.abc.es/recetasderechupete/terminos-de-uso/
+          - text: ·
+          - link "Política de privacidad" [ref=e407] [cursor=pointer]:
+            - /url: https://www.abc.es/recetasderechupete/politica-de-cookies/
+          - text: ·
+          - link "Política de cookies" [ref=e408] [cursor=pointer]:
+            - /url: https://www.abc.es/recetasderechupete/politica-de-cookies-2/
+        - paragraph [ref=e409]:
+          - text: Diseñado por
+          - link "PIENSA en PIXELS" [ref=e410] [cursor=pointer]:
+            - /url: https://piensaenpixels.com/
+          - text: ·
+          - link "Cloud hosting con StackScale" [ref=e411] [cursor=pointer]:
+            - /url: https://www.stackscale.com/es/
+        - paragraph [ref=e412]:
+          - img [ref=e413]

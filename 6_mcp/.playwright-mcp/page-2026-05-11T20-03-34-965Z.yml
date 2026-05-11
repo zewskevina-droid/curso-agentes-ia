@@ -1,0 +1,19 @@
+- generic [active] [ref=e1]:
+  - paragraph [ref=e2]:
+    - text: If you are a reader experiencing an access issue, please contact
+    - link "support@people.inc" [ref=e3] [cursor=pointer]:
+      - /url: mailto:support@people.inc
+    - text: .
+    - text: To help us troubleshoot more quickly, you may include your IP address.
+    - text: You can find it by visiting
+    - link "icanhazip.com" [ref=e4] [cursor=pointer]:
+      - /url: https://icanhazip.com
+    - text: or
+    - link "whatismyip.com" [ref=e5] [cursor=pointer]:
+      - /url: https://www.whatismyip.com
+    - text: .
+  - paragraph [ref=e6]:
+    - text: If you would like to access our content for licensing, please contact
+    - link "contentlicensing@people.inc" [ref=e7] [cursor=pointer]:
+      - /url: mailto:contentlicensing@people.inc
+    - text: .

@@ -1,0 +1,137 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to Content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "Newsletter" [ref=e9] [cursor=pointer]:
+          - /url: http://fre-renderers.default:81/email/delish-newsletter/
+          - img [ref=e11]
+          - text: Newsletter
+        - generic [ref=e15]:
+          - search [ref=e16]:
+            - generic [ref=e17]: Search
+            - generic [ref=e19]:
+              - textbox "Search" [ref=e20]:
+                - /placeholder: Search...
+              - button "Search" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+          - link "Delish" [ref=e26] [cursor=pointer]:
+            - /url: /
+            - img [ref=e29]
+          - generic [ref=e31]:
+            - link "Sign In" [ref=e33] [cursor=pointer]:
+              - /url: /auth/csrf?action=login&return_url=%2F
+              - text: Sign in
+            - link "Subscribe" [ref=e34] [cursor=pointer]:
+              - /url: https://store.delish.com/delish-unlimited-all-access-membership-2999.html?cds_tracking_code=del_topnav
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "Recipes" [ref=e39] [cursor=pointer]:
+              - /url: /cooking/
+          - listitem [ref=e40]:
+            - link "Spring Recipes" [ref=e42] [cursor=pointer]:
+              - /url: /best-spring-recipes/
+          - listitem [ref=e43]:
+            - link "Occasions" [ref=e45] [cursor=pointer]:
+              - /url: /holiday-recipes/
+          - listitem [ref=e46]:
+            - link "Kitchen Tips" [ref=e48] [cursor=pointer]:
+              - /url: /kitchen-tools/
+          - listitem [ref=e49]:
+            - link "Food News & Trends" [ref=e51] [cursor=pointer]:
+              - /url: /food-news/
+          - listitem [ref=e52]:
+            - link "Member Exclusives" [ref=e54] [cursor=pointer]:
+              - /url: /delish-unlimited-member-exclusives/
+          - listitem [ref=e55]:
+            - link "About Us" [ref=e57] [cursor=pointer]:
+              - /url: /about/a26446372/about-us-contact-information-team-masthead/
+    - main [ref=e58]:
+      - generic [ref=e59]:
+        - heading "Oops! We don't have the page you're looking for." [level=2] [ref=e60]
+        - link "Homepage" [ref=e61] [cursor=pointer]:
+          - /url: /
+          - text: Check out our latest stories.
+    - contentinfo [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - link "Delish" [ref=e65] [cursor=pointer]:
+            - /url: /
+            - img "Logo" [ref=e66]
+          - generic [ref=e67]:
+            - link "x" [ref=e69] [cursor=pointer]:
+              - /url: https://x.com/delish
+              - img "x" [ref=e70]
+            - link "tiktok" [ref=e72] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@delish?lang=en
+              - img "tiktok" [ref=e73]
+            - link "youtube" [ref=e75] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/delish?sub_confirmation=1
+              - img "youtube" [ref=e76]
+            - link "facebook" [ref=e78] [cursor=pointer]:
+              - /url: https://www.facebook.com/delish
+              - img "facebook" [ref=e79]
+            - link "instagram" [ref=e81] [cursor=pointer]:
+              - /url: http://instagram.com/delish
+              - img "instagram" [ref=e82]
+            - link "pinterest" [ref=e84] [cursor=pointer]:
+              - /url: http://www.pinterest.com/Delish/?auto_follow=1
+              - img "pinterest" [ref=e85]
+        - navigation "Footer" [ref=e86]:
+          - link "Newsletter" [ref=e87] [cursor=pointer]:
+            - /url: https://delish.com/email/delish-newsletter
+          - link "Subscribe" [ref=e88] [cursor=pointer]:
+            - /url: https://store.delish.com/delish-unlimited-all-access-membership-2999.html?cds_tracking_code=del_footer
+          - link "Manage Subscription" [ref=e89] [cursor=pointer]:
+            - /url: https://service.delish.com/login?redirect=%2F
+          - link "About Us" [ref=e90] [cursor=pointer]:
+            - /url: /about/a26446372/about-us-contact-information-team-masthead/
+          - link "Delish Test Kitchen" [ref=e91] [cursor=pointer]:
+            - /url: /about/a60636180/approved-delish-kitchen-testing-process/
+          - link "Media Kit" [ref=e92] [cursor=pointer]:
+            - /url: https://www.delishmediakit.com/r5/home.asp
+          - link "Community Guidelines" [ref=e93] [cursor=pointer]:
+            - /url: /about/a41645/community-guidelines/
+          - link "Advertise With Us" [ref=e94] [cursor=pointer]:
+            - /url: /about/a41646/advertise-delish/
+          - link "Delish Membership Support" [ref=e95] [cursor=pointer]:
+            - /url: mailto:membersupport@delish.com
+          - link "Turn off Web Notifications" [ref=e96] [cursor=pointer]:
+            - /url: /about/a61795077/how-to-turn-off-web-notifications/
+        - img "A Part of Hearst Digital Media" [ref=e97]
+        - paragraph [ref=e98]: A Part of Hearst Digital Media
+        - paragraph [ref=e99]: We may earn commission from links on this page, but we only recommend products we back.
+        - paragraph [ref=e100]: ©2026 Hearst Magazine Media, Inc. All Rights Reserved.
+        - generic [ref=e101]:
+          - link "Privacy Notice" [ref=e102] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice
+          - link "CA Notice at Collection" [ref=e103] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice#_ADDITIONAL_INFO
+          - link "Your CA Privacy Rights/Shine the Light" [ref=e104] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice#_ADDITIONAL_INFO
+          - link "DAA Industry Opt Out" [ref=e105] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice#_OPT_OUTS
+          - link "Terms of Use" [ref=e106] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-terms-of-use
+          - link "Site Map" [ref=e107] [cursor=pointer]:
+            - /url: /sitemap/
+        - link "do-not-sell-link" [ref=e109] [cursor=pointer]:
+          - /url: javascript:Optanon.ToggleInfoDisplay();
+          - img "Opt-Out Icon" [ref=e110]
+          - text: "Your Privacy Choices: Opt Out of Sale/Targeted Ads"
+  - alert [ref=e111]
+  - 'dialog "Privacy Disclosure: Your privacy matters to us" [ref=e112]':
+    - button "Close Privacy Disclosure" [ref=e113] [cursor=pointer]:
+      - img [ref=e114]
+    - generic [ref=e116]:
+      - text: We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other purposes.
+      - link "Learn more in our Privacy Notice" [ref=e117] [cursor=pointer]:
+        - /url: https://www.hearst.com/-/us-magazines-privacy-notice
+      - text: . You agree that your use of this website and the Hearst Services is governed by the
+      - link "Terms of Use" [ref=e118] [cursor=pointer]:
+        - /url: https://www.hearst.com/-/us-magazines-terms-of-use
+      - text: (including
+      - link "the dispute resolution procedures" [ref=e119] [cursor=pointer]:
+        - /url: https://www.hearst.com/-/us-magazines-terms-of-use#_DISPUTE_RESOLUTION
+      - text: ).
