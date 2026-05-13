@@ -1,0 +1,131 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "Recetas.com" [ref=e5] [cursor=pointer]:
+          - /url: https://www.recetas.com/
+          - generic [ref=e6]: Recetas.com
+        - search [ref=e7]:
+          - generic [ref=e8]:
+            - textbox "Buscar recetas de cocina…" [ref=e9]
+            - combobox "Secci�n" [ref=e10] [cursor=pointer]:
+              - option "Recetas" [selected]
+              - option "Noticias"
+              - option "Trucos de cocina"
+              - option "Diccionario culinario"
+              - option "Alimentos curativos"
+              - option "Ingredientes"
+              - option "Videos"
+              - option "Autores o Chefs"
+            - button "Buscar" [ref=e11] [cursor=pointer]:
+              - img [ref=e12]
+        - generic [ref=e15]:
+          - link "Entra" [ref=e16] [cursor=pointer]:
+            - /url: https://www.recetas.com/popup_login.php
+          - link "Regístrate" [ref=e17] [cursor=pointer]:
+            - /url: https://www.recetas.com/popup_register.php
+      - navigation "Navegaci�n principal" [ref=e18]:
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - link "Recetas" [ref=e22] [cursor=pointer]:
+              - /url: /recetas/
+          - listitem [ref=e23]:
+            - link "Países" [ref=e24] [cursor=pointer]:
+              - /url: https://www.recetas.com/recetas_internacionales/
+          - listitem [ref=e25]:
+            - link "Reportajes" [ref=e26] [cursor=pointer]:
+              - /url: /reportajes/
+          - listitem [ref=e27]:
+            - link "Especiales" [ref=e28] [cursor=pointer]:
+              - /url: /especiales/
+          - listitem [ref=e29]:
+            - link "Utilidades" [ref=e30] [cursor=pointer]:
+              - /url: /utilidades/
+          - listitem [ref=e31]:
+            - link "Tablas" [ref=e32] [cursor=pointer]:
+              - /url: /tablas/
+          - listitem [ref=e33]:
+            - link "Chefs" [ref=e34] [cursor=pointer]:
+              - /url: /chefs/
+          - listitem [ref=e35]:
+            - link "Videos" [ref=e36] [cursor=pointer]:
+              - /url: /videos/
+    - main [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - navigation [ref=e40]:
+            - link "Recetas.com" [ref=e41] [cursor=pointer]:
+              - /url: https://www.recetas.com/
+            - text: / Error 404 - Página no encontrada
+          - generic [ref=e42]:
+            - heading "No hemos encontrado la página que buscas" [level=1] [ref=e43]
+            - paragraph [ref=e44]: Puede que la página que estas buscando se moviera de lugar dentro del site o que escribieras la dirección mal
+            - paragraph [ref=e45]:
+              - text: Revisa si has escrito bien la dirección de la página, y si aún así no encuentras lo que buscas, usa la página de búsqueda del site para encontrarlo en
+              - link "buscar" [ref=e46] [cursor=pointer]:
+                - /url: http://www.telfo.net/search.php
+            - paragraph [ref=e47]:
+              - text: Si crees que es un error
+              - link "contáctanos" [ref=e48] [cursor=pointer]:
+                - /url: https://www.recetas.com/contact.php
+              - text: e intentaremos solucionarlo lo antes posible.
+        - complementary "Sidebar" [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - heading "Video Recetas" [level=3] [ref=e52]
+              - link "Ver más" [ref=e53] [cursor=pointer]:
+                - /url: https://www.recetas.com/videos/
+            - generic [ref=e54]:
+              - link "Guacamole Guacamole" [ref=e55] [cursor=pointer]:
+                - /url: https://www.recetas.com/videos/guacamole-4lr.html
+                - img "Guacamole" [ref=e57]
+                - generic [ref=e59]: Guacamole
+              - link "Manzanas Hasselback Manzanas Hasselback" [ref=e60] [cursor=pointer]:
+                - /url: https://www.recetas.com/videos/manzanas-hasselback.html
+                - img "Manzanas Hasselback" [ref=e62]
+                - generic [ref=e64]: Manzanas Hasselback
+              - link "Rollitos de Bacon con Queso Rollitos de Bacon con Queso" [ref=e65] [cursor=pointer]:
+                - /url: https://www.recetas.com/videos/rollitos-de-bacon-con-queso.html
+                - img "Rollitos de Bacon con Queso" [ref=e67]
+                - generic [ref=e69]: Rollitos de Bacon con Queso
+              - link "Nubes de Huevo Nubes de Huevo" [ref=e70] [cursor=pointer]:
+                - /url: https://www.recetas.com/videos/nubes-de-huevo.html
+                - img "Nubes de Huevo" [ref=e72]
+                - generic [ref=e74]: Nubes de Huevo
+          - heading "Síguenos en Facebook" [level=3] [ref=e76]
+    - contentinfo [ref=e77]:
+      - generic [ref=e79]:
+        - link "Recetas.com" [ref=e81] [cursor=pointer]:
+          - /url: https://www.recetas.com/
+          - generic [ref=e82]: Recetas.com
+        - generic [ref=e83]:
+          - link "Recetas" [ref=e84] [cursor=pointer]:
+            - /url: https://www.recetas.com/recetas/
+          - link "Reportajes" [ref=e85] [cursor=pointer]:
+            - /url: https://www.recetas.com/reportajes/
+          - link "Utilidades" [ref=e86] [cursor=pointer]:
+            - /url: https://www.recetas.com/utilidades/
+          - link "Chefs" [ref=e87] [cursor=pointer]:
+            - /url: https://www.recetas.com/chefs/
+          - link "Videos" [ref=e88] [cursor=pointer]:
+            - /url: https://www.recetas.com/videos/
+        - generic [ref=e89]:
+          - paragraph [ref=e90]: 2006–2026. Todos los derechos reservados. Recetas.com es una marca registrada de Telfo Networks S.L.
+          - paragraph [ref=e91]:
+            - link "Aviso legal" [ref=e92] [cursor=pointer]:
+              - /url: https://www.recetas.com/datosempresa/datosempresa.php
+            - text: ·
+            - link "Condiciones de uso" [ref=e93] [cursor=pointer]:
+              - /url: https://www.recetas.com/content/terminos-y-condiciones.html
+            - text: ·
+            - link "Contactar" [ref=e94] [cursor=pointer]:
+              - /url: https://www.recetas.com/contact.php
+  - generic [ref=e96]:
+    - generic [ref=e97]:
+      - strong [ref=e98]: Usamos cookies
+      - text: para mejorar tu experiencia, analizar el tráfico y mostrarte contenido relevante.
+      - link "Política de cookies" [ref=e99] [cursor=pointer]:
+        - /url: /ley_cookies/politica-de-cookies.html
+    - generic [ref=e100]:
+      - button "Solo esenciales" [ref=e101] [cursor=pointer]
+      - button "Aceptar todas" [ref=e102] [cursor=pointer]

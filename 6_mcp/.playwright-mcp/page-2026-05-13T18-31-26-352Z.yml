@@ -1,0 +1,194 @@
+- generic [active] [ref=e1]:
+  - link [ref=e2] [cursor=pointer]:
+    - /url: javascript:;
+  - generic [ref=e3]:
+    - link "":
+      - /url: javascript:;
+      - generic: 
+    - generic [ref=e4]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Inicio" [ref=e8] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e9]:
+          - link "Nosotros" [ref=e10] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/nosotros/
+        - listitem [ref=e11]:
+          - link "Servicios" [ref=e12] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/servicios/
+        - listitem [ref=e13]:
+          - link "Proyectos" [ref=e14] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/proyectos/
+        - listitem [ref=e15]:
+          - link "Contacto" [ref=e16] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/contacto/
+      - generic [ref=e17]:
+        - generic:
+          - generic:
+            - generic:
+              - list
+      - generic:
+        - list
+  - generic [ref=e18]:
+    - generic [ref=e22]:
+      - link [ref=e26] [cursor=pointer]:
+        - /url: /
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "Inicio" [ref=e35] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e36]:
+          - link "Nosotros" [ref=e37] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/nosotros/
+        - listitem [ref=e38]:
+          - link "Servicios" [ref=e39] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/servicios/
+        - listitem [ref=e40]:
+          - link "Proyectos" [ref=e41] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/proyectos/
+        - listitem [ref=e42]:
+          - link "Contacto" [ref=e43] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/contacto/
+    - generic [ref=e49]:
+      - link [ref=e53] [cursor=pointer]:
+        - /url: /
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "Inicio" [ref=e62] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e63]:
+          - link "Nosotros" [ref=e64] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/nosotros/
+        - listitem [ref=e65]:
+          - link "Servicios" [ref=e66] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/servicios/
+        - listitem [ref=e67]:
+          - link "Proyectos" [ref=e68] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/proyectos/
+        - listitem [ref=e69]:
+          - link "Contacto" [ref=e70] [cursor=pointer]:
+            - /url: https://www.lvspanama.com/contacto/
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - img [ref=e77]
+        - generic [ref=e92]:
+          - generic [ref=e99]:
+            - heading "Lleve su evento al siguiente nivel" [level=1] [ref=e100]
+            - generic [ref=e101]: Producción audiovisual, pantallas LED y soporte técnico profesional para eventos corporativos.
+            - link "Más información" [ref=e103] [cursor=pointer]:
+              - /url: /servicios/
+          - button "Slide anterior" [ref=e104] [cursor=pointer]:
+            - img [ref=e105]
+          - button "Slide siguiente" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+          - generic [ref=e110]:
+            - button "Ir al slide 1" [ref=e111] [cursor=pointer]
+            - button "Ir al slide 2" [ref=e112] [cursor=pointer]
+      - img [ref=e116]
+      - generic [ref=e132]:
+        - img [ref=e134]
+        - paragraph [ref=e148]: Lleve su evento al siguiente nivel con pantallas LED, audio profesional, tarimas y soluciones tecnológicas en Panamá. En LVS le acompañamos con asesoría experta y ejecución impecable para asegurar resultados memorables.
+      - generic [ref=e155]:
+        - generic [ref=e157]:
+          - generic [ref=e158]: LVS Panamá
+          - heading "Más que proveedores, somos asesores en tecnología audiovisual" [level=2] [ref=e159]
+          - paragraph [ref=e160]:
+            - text: En
+            - strong [ref=e161]: LVS Panamá
+            - text: contamos con más de 12 años de experiencia acompañando a empresas, organizaciones y marcas en la planificación y ejecución de eventos exitosos.
+          - paragraph [ref=e162]:
+            - text: Nuestra especialidad no es el alquiler de equipos. Nuestra verdadera fortaleza está en la
+            - strong [ref=e163]: asesoría estratégica en tecnología audiovisual
+            - text: ", lo que nos permite diseñar soluciones integrales alineadas a los objetivos de cada evento."
+        - generic [ref=e164]:
+          - list:
+            - listitem [ref=e165]
+            - listitem [ref=e166]
+            - listitem [ref=e167]
+          - list:
+            - navigation [ref=e168]:
+              - link [ref=e169] [cursor=pointer]:
+                - /url: javascript:;
+              - link [ref=e170] [cursor=pointer]:
+                - /url: javascript:;
+              - link [ref=e171] [cursor=pointer]:
+                - /url: javascript:;
+      - heading "Nuestros servicios" [level=2] [ref=e177]
+      - generic [ref=e185]:
+        - generic [ref=e189]:
+          - heading "Corporativo" [level=2] [ref=e191]
+          - generic [ref=e192]:
+            - text: Producción de eventos corporativos en Panamá
+            - link "Ver más" [ref=e193] [cursor=pointer]:
+              - /url: /servicios/corporativo
+        - generic [ref=e197]:
+          - heading "Ferias, stands y eventos" [level=2] [ref=e199]
+          - generic [ref=e200]:
+            - text: Diseño y montaje de stands para ferias en Panamá
+            - link "Ver más" [ref=e201] [cursor=pointer]:
+              - /url: /servicios/ferias-stands-alto-trafico/
+        - generic [ref=e205]:
+          - heading "Eventos sociales" [level=2] [ref=e207]
+          - generic [ref=e208]:
+            - text: Producción de eventos sociales en Panamá
+            - link "Ver más" [ref=e209] [cursor=pointer]:
+              - /url: /servicios/eventos-sociales
+        - generic [ref=e213]:
+          - heading "Live meetings" [level=2] [ref=e215]
+          - generic [ref=e216]:
+            - text: Producción de eventos virtuales y híbridos en Panamá
+            - link "Ver más" [ref=e217] [cursor=pointer]:
+              - /url: /servicios/live-meetings
+      - generic [ref=e218]:
+        - img [ref=e220]
+        - img [ref=e231]
+        - generic [ref=e241]:
+          - generic [ref=e243]:
+            - heading "En LVS Panamá no solo ejecutamos eventos" [level=3] [ref=e247]
+            - generic [ref=e248]: Le acompañamos a tomar mejores decisiones para que su inversión realmente genere resultados.
+          - link "Nuestros servicios" [ref=e252] [cursor=pointer]:
+            - /url: /servicios/
+            - generic [ref=e254]: Nuestros servicios
+      - generic [ref=e256]:
+        - generic [ref=e257]: Nuestra experiencia
+        - generic [ref=e260]:
+          - generic [ref=e261]: Más de
+          - generic [ref=e262]: "0"
+          - generic [ref=e263]: eventos realizados.
+      - generic [ref=e264]:
+        - img [ref=e267]
+        - generic [ref=e279]:
+          - heading "¿Planeando su próximo gran evento?" [level=2] [ref=e281]
+          - paragraph [ref=e283]: Permítanos asesorarle en el diseño de la solución tecnológica ideal para alcanzar sus objetivos con precisión y profesionalismo.
+          - link "Solicitar cotización" [ref=e285] [cursor=pointer]:
+            - /url: /contacto
+            - generic [ref=e287]: Solicitar cotización
+    - generic [ref=e288]:
+      - generic [ref=e290]:
+        - generic [ref=e292]:
+          - link [ref=e294] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e296]: Lleve su evento al siguiente nivel con pantallas LED, audio profesional, tarimas y soluciones tecnológicas en Panamá.
+          - generic [ref=e298]:
+            - link [ref=e299] [cursor=pointer]:
+              - /url: https://instagram.com/lvspanama
+            - link [ref=e301] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@lvspanama
+            - link [ref=e303] [cursor=pointer]:
+              - /url: https://www.youtube.com/@lvspanama
+        - generic [ref=e306]:
+          - heading "Contacto" [level=3] [ref=e308]
+          - generic [ref=e310]:
+            - generic [ref=e313]: Vista Alegre, Provincia de Panamá Oeste, Panamá
+            - link "info@lvspanama.com" [ref=e316] [cursor=pointer]:
+              - /url: mailto:info@lvspanama.com
+            - link "+507 6830-3330" [ref=e319] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send/?phone=50768303330&text=%C2%A1Hola%2C+%2ALVS+Panama%2A%21+Necesito+m%C3%A1s+informaci%C3%B3n+sobre...
+      - generic [ref=e324]:
+        - generic [ref=e328]: © 2022 Copyright LVS Panama. Todos los derechos reservados.
+        - generic [ref=e332]:
+          - img "ZEWS S.A." [ref=e333]
+          - text: "|"
+          - link "Agencias SEO en Panamá" [ref=e334] [cursor=pointer]:
+            - /url: https://zews.com.pa/
+  - dialog "Compliance by Hu-manity.co"
