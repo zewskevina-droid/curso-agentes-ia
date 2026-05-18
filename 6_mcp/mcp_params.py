@@ -4,10 +4,9 @@ from market import is_paid_polygon, is_realtime_polygon
 
 load_dotenv(override=True)
 
-brave_env = {"BRAVE_API_KEY": os.getenv("BRAVE_API_KEY")}
 polygon_api_key = os.getenv("POLYGON_API_KEY")
 
-# The MCP server for the Trader to read Market Data
+# Servidor MCP para que el trader lea datos de mercado
 
 if is_paid_polygon or is_realtime_polygon:
     market_mcp = {
@@ -19,7 +18,7 @@ else:
     market_mcp = {"command": "uv", "args": ["run", "market_server.py"]}
 
 
-# The full set of MCP servers for the trader: Accounts, Push Notification and the Market
+# Conjunto completo de servidores MCP para el trader: cuentas, notificaciones push y mercado
 
 trader_mcp_server_params = [
     {"command": "uv", "args": ["run", "accounts_server.py"]},
@@ -27,17 +26,13 @@ trader_mcp_server_params = [
     market_mcp,
 ]
 
-# The full set of MCP servers for the researcher: Fetch, Brave Search and Memory
+# Conjunto completo de servidores MCP para el investigador: busqueda web, Fetch y memoria
 
 
 def researcher_mcp_server_params(name: str):
     return [
+        {"command": "uv", "args": ["run", "search_server.py"]},
         {"command": "uvx", "args": ["mcp-server-fetch"]},
-        {
-            "command": "npx",
-            "args": ["-y", "@modelcontextprotocol/server-brave-search"],
-            "env": brave_env,
-        },
         {
             "command": "npx",
             "args": ["-y", "mcp-memory-libsql"],

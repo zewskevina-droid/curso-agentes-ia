@@ -6,7 +6,9 @@ from openai import AsyncOpenAI
 from dotenv import load_dotenv
 import os
 import json
-from agents.mcp import MCPServerStdio
+import subprocess
+import httpx
+from agents.mcp import MCPServerStdio, MCPServerStreamableHttp
 from templates import (
     researcher_instructions,
     trader_instructions,
@@ -29,15 +31,40 @@ GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 MAX_TURNS = 30
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:7b")
 
-openrouter_client = AsyncOpenAI(base_url=OPENROUTER_BASE_URL, api_key=openrouter_api_key)
-deepseek_client = AsyncOpenAI(base_url=DEEPSEEK_BASE_URL, api_key=deepseek_api_key)
-grok_client = AsyncOpenAI(base_url=GROK_BASE_URL, api_key=grok_api_key)
-gemini_client = AsyncOpenAI(base_url=GEMINI_BASE_URL, api_key=google_api_key)
+
+def get_ollama_base_url() -> str:
+    configured_url = os.getenv("OLLAMA_BASE_URL") or os.getenv("OLLAMA_HOST")
+    if configured_url:
+        configured_url = configured_url.rstrip("/")
+        return configured_url if configured_url.endswith("/v1") else f"{configured_url}/v1"
+
+    try:
+        route = subprocess.check_output(["ip", "route"], text=True, stderr=subprocess.DEVNULL)
+        windows_host = next(line.split()[2] for line in route.splitlines() if line.startswith("default "))
+        return f"http://{windows_host}:11434/v1"
+    except Exception:
+        return "http://127.0.0.1:11434/v1"
+
+openrouter_client = AsyncOpenAI(base_url=OPENROUTER_BASE_URL, api_key=openrouter_api_key or "unused")
+deepseek_client = AsyncOpenAI(base_url=DEEPSEEK_BASE_URL, api_key=deepseek_api_key or "unused")
+grok_client = AsyncOpenAI(base_url=GROK_BASE_URL, api_key=grok_api_key or "unused")
+gemini_client = AsyncOpenAI(base_url=GEMINI_BASE_URL, api_key=google_api_key or "unused")
+ollama_client = AsyncOpenAI(
+    base_url=get_ollama_base_url(),
+    api_key="ollama",
+    http_client=httpx.AsyncClient(timeout=120, trust_env=False),
+)
 
 
 def get_model(model_name: str):
-    if "/" in model_name:
+    if model_name == "ollama" or model_name == OLLAMA_MODEL or model_name.startswith("ollama:"):
+        ollama_model_name = model_name.removeprefix("ollama:")
+        if ollama_model_name == "ollama":
+            ollama_model_name = OLLAMA_MODEL
+        return OpenAIChatCompletionsModel(model=ollama_model_name, openai_client=ollama_client)
+    elif "/" in model_name:
         return OpenAIChatCompletionsModel(model=model_name, openai_client=openrouter_client)
     elif "deepseek" in model_name:
         return OpenAIChatCompletionsModel(model=model_name, openai_client=deepseek_client)
@@ -64,8 +91,18 @@ async def get_researcher_tool(mcp_servers, model_name) -> Tool:
     return researcher.as_tool(tool_name="Researcher", tool_description=research_tool())
 
 
+def make_mcp_server(params: dict, timeout: int = 120):
+    if params.get("transport") == "streamable_http":
+        http_params = {key: value for key, value in params.items() if key != "transport"}
+        return MCPServerStreamableHttp(
+            params=http_params,
+            client_session_timeout_seconds=timeout,
+        )
+    return MCPServerStdio(params, client_session_timeout_seconds=timeout)
+
+
 class Trader:
-    def __init__(self, name: str, lastname="Trader", model_name="gpt-4o-mini"):
+    def __init__(self, name: str, lastname="Trader", model_name="ollama"):
         self.name = name
         self.lastname = lastname
         self.agent = None
@@ -104,14 +141,14 @@ class Trader:
         async with AsyncExitStack() as stack:
             trader_mcp_servers = [
                 await stack.enter_async_context(
-                    MCPServerStdio(params, client_session_timeout_seconds=120)
+                    make_mcp_server(params, timeout=120)
                 )
                 for params in trader_mcp_server_params
             ]
             async with AsyncExitStack() as stack:
                 researcher_mcp_servers = [
                     await stack.enter_async_context(
-                        MCPServerStdio(params, client_session_timeout_seconds=120)
+                        make_mcp_server(params, timeout=120)
                     )
                     for params in researcher_mcp_server_params(self.name)
                 ]
@@ -127,5 +164,5 @@ class Trader:
         try:
             await self.run_with_trace()
         except Exception as e:
-            print(f"Error running trader {self.name}: {e}")
+            print(f"Error ejecutando trader {self.name}: {e}")
         self.do_trade = not self.do_trade
